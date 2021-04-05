@@ -1,0 +1,166 @@
+"Item"
+{
+	"Type"		"ITEM_BARRIER_BREAKABLE"
+	"ItemClass"	"ItemBarrier"
+	"Editor"
+	{
+		"SubTypeProperty"		"BarrierType"
+		"SubType"
+		{
+			"Name"			"Breakable Glass"
+			"Model"
+			{
+				"ModelName"		"glass_handle.3ds"
+			}
+			"Palette"
+			{
+				"Tooltip"		"Breakable Glass"
+				"Image"			"palette/glass.png"
+				"Position"		"1 3 0"
+			}
+		}
+		"SubType"
+			{
+			"Name"		"Breakable Glass"
+			"Model"
+				{
+				"ModelName"		"sentry.3ds"
+				}
+}
+		"SubType"
+			{
+			"Name"		"Breakable Glass"
+			"Model"
+				{
+				"ModelName"		"glass_handle.3ds"
+				}
+}
+		"SubType"
+			{
+			"Name"		"Breakable Glass"
+			"Model"
+				{
+				"ModelName"		"glass_handle.3ds"
+				}
+}
+		"SubType"
+			{
+			"Name"		"Breakable Glass"
+			"Model"
+				{
+				"ModelName"		"glass_handle.3ds"
+				}
+}
+		"MovementHandle"        "HANDLE_4_DIRECTIONS"
+		"CanAnchorOnBarriers"   "1"
+		"OccupiesVoxel"         "0"
+	}
+	"Properties"
+	{
+		
+		"CubeType"
+			{
+			"DefaultValue"	"0"
+			"Index"			"1"
+			}
+	}
+	"Exporting"
+	{
+	"Outputs"
+			{
+			"BEE2"
+				{
+				"out_activate"   "instance:output;OnUser1"
+				"out_deactivate" "instance:output;OnUser2"
+				}
+			}
+	"Inputs"
+			{
+			"BEE2"
+				{
+				"Type"          "AND"
+				"InvertVar"     "1"
+				"Enable_Cmd"    "inputON,Trigger,,0,-1"
+				"Disable_Cmd"   "inputOFF,Trigger,,0,-1"
+				}
+			}
+		"Instances"
+		{
+			"0"
+			{
+				"Name"				"instances/BEE2/barrier/segment0.vmf"
+				"EntityCount"		"1"
+			}
+			"1"
+			{
+				"Name"				"instances/BEE2/barrier/segment1.vmf"
+				"EntityCount"		"1"
+			}
+			"2"
+			{
+				"Name"				"instances/BEE2/barrier/segment2.vmf"
+				"EntityCount"		"1"
+			}
+			"3"
+			{
+				"Name"				"instances/BEE2/barrier/segment3.vmf"
+				"EntityCount"		"1"
+			}
+			"4"
+			{
+				"Name"				"instances/BEE2/barrier/segment3.vmf"
+				"EntityCount"		"1"
+			}
+			
+		}
+		"TargetName"		"g"
+		"Offset"		"64 64 64"
+"ConnectionPoints" {
+			"Point" {
+				"Dir"				"1 0 0"
+				"Pos"				"-1 3 0"
+				"SignageOffset"		"-2 2 0"
+				"Priority"          "0"
+			}
+			"Point" {
+				"Dir"				"1 0 0"
+				"Pos"				"-1 4 0"
+				"SignageOffset"		"-2 5 0"
+				"Priority"          "0"
+			}
+			"Point" {
+				"Dir"				"1 0 0"
+				"Pos"				"-1 1 0"
+				"SignageOffset"		"-2 0 0"
+				"Priority"          "0"
+			}
+			"Point" {
+				"Dir"				"1 0 0"
+				"Pos"				"-1 6 0"
+				"SignageOffset"		"-2 7 0"
+				"Priority"          "0"
+			}
+		}
+	}
+}
+"Item"
+{
+	"Type"		"ITEM_BARRIER_EXTENT"
+	"ItemClass"		"ItemBarrierExtent"
+	"Editor"
+	{
+		"SubType"
+		{
+			"Model"
+			{
+				"ModelName"		"handle_grip_trianglesmall.3ds"
+				"TextureName"	"buttonweight.png"
+			}
+		}
+		"MovementHandle"		"HANDLE_NONE"
+		"OccupiesVoxel"		"0"
+		"Deletable"			"0"
+		"Copyable"			"0"
+		"PseudoHandle"		"1"
+	}
+}

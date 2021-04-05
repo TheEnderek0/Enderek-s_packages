@@ -1,0 +1,90 @@
+"Item" {
+    "Type" "ITEM_COLUMN"
+    "Editor" {
+        "SubType" {
+			"Name" "Pillar"
+			"Model" {
+				"ModelName"		"sentry.3ds"
+			}
+			"Palette" {
+				"Tooltip"	"Pillar"
+				"Image"		"clean/column.vtf"
+				"Position"	"1 6 0"
+			}
+		    "Sounds" {
+				"SOUND_CREATED" "P2Editor.PlaceOther"
+				"SOUND_EDITING_ACTIVATE" "P2Editor.ExpandOther"
+				"SOUND_EDITING_DEACTIVATE" "P2Editor.CollapseOther"
+				"SOUND_DELETED" "P2Editor.RemoveOther"
+			}
+		}
+		"MovementHandle" "HANDLE_8_POSITIONS"
+		"DesiredFacing" "DESIRES_ANYTHING"
+		"InvalidSurface" "  "
+		"CanAnchorOnBarriers" "0"
+		"CanAnchorOnGoo" "0"
+	}
+	"Properties" 	{
+		
+		"CubeType"
+			{
+			"DefaultValue"	"0"
+			"Index"			"1"
+			}
+			"StartEnabled"
+			{
+				"DefaultValue"		"0"
+				"Index"				"2"
+			}
+	}
+	"Exporting" {
+		"Instances" {
+			"0" {
+				"Name" "instances/BEE2/column/column0.vmf"
+				"EntityCount" "2"
+			}
+			"1"
+			{
+				"Name" "instances/BEE2/column/column1.vmf"
+			}
+"2"
+			{
+				"Name" "instances/BEE2/column/column2.vmf"
+			}
+"3"
+			{
+				"Name" "instances/BEE2/column/column3.vmf"
+			}
+		"TargetName" "column"
+		"Offset" "64 64 64"
+		}
+		"ConnectionPoints" {
+			"Point" {
+				"Dir"				"1 0 0"
+				"Pos"				"-1 3 0"
+				"SignageOffset"		"-2 2 0"
+				"Priority"          "0"
+			}
+			"Point" {
+				"Dir"				"1 0 0"
+				"Pos"				"-1 4 0"
+				"SignageOffset"		"-2 5 0"
+				"Priority"          "0"
+			}
+			"Point" {
+				"Dir"				"1 0 0"
+				"Pos"				"-1 1 0"
+				"SignageOffset"		"-2 0 0"
+				"Priority"          "0"
+			}
+			"Point" {
+				"Dir"				"1 0 0"
+				"Pos"				"-1 6 0"
+				"SignageOffset"		"-2 7 0"
+				"Priority"          "0"
+			}
+		}
+		
+
+	}
+}

@@ -1,0 +1,10 @@
+"Properties" {
+	"Authors"		"The_Enderek0"
+	"Tags"			"Custom"
+	"Description"	"Cube Type: -Normal = max left, -Companion = left, -Reflect = right, -Sphere = max right. When Start Enabled is disabled, the pillar will be white. When Start Enabled is enabled, the pillar will be black."
+	"infoURL"		"https:/\/google.com/"
+	"Ent_count"     "0"
+	"Icon" {
+		"0"	"clean/column.png"
+	}
+}
