@@ -47,21 +47,6 @@ Works like a normal cube dropper, but it drops a **HEP Redirection Cube**
 
 
 ```
-Changelog:
-- Added HEPRC and HEPRCD
-- Added styled items:
-A) Portal 1 Style
-- Toggle Button
-- HEP Redirection Cube Dropper
-B) Overgrown
-- Breakable Glass
-- HEP Redirection Cube Dropper
-- Toggle Button
-C) 1950s / 1960s / 1970s / 1980s
-- Toggle Button
-- HEP Redirection Cube Dropper
-______________
-
 Known issues with items:
 
 - Toggle buttons do not have apropriate models in style P1 and Retro.
