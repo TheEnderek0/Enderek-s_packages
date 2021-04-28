@@ -1,0 +1,424 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "8874"
+	"mapversion" "12"
+	"formatversion" "100"
+	"prefab" "0"
+}
+visgroups
+{
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "0"
+	"nGridSpacing" "8"
+	"bShow3DGrid" "0"
+}
+world
+{
+	"id" "1"
+	"mapversion" "12"
+	"classname" "worldspawn"
+	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
+	"maxblobcount" "250"
+	"maxpropscreenwidth" "-1"
+	"skyname" "sky_black_nofog"
+}
+entity
+{
+	"id" "480"
+	"classname" "weapon_portalgun"
+	"angles" "0 180 0"
+	"canfireportal1" "0"
+	"canfireportal2" "1"
+	"targetname" "Pgun"
+	"origin" "-11.7098 -40 -40"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "484"
+	"classname" "point_template"
+	"angles" "0 0 0"
+	"spawnflags" "2"
+	"targetname" "template"
+	"template01" "Pgun"
+	"origin" "-32 -40 -40"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "502"
+	"classname" "env_entity_maker"
+	"angles" "0 0 0"
+	"entitytemplate" "template"
+	"postspawndirection" "0 0 0"
+	"postspawndirectionvariance" "0.15"
+	"targetname" "pgunmaker"
+	"origin" "-8 0 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "3"
+	"classname" "prop_dynamic"
+	"angles" "0 180 0"
+	"defaultanim" "idle"
+	"holdanimation" "1"
+	"maxanimtime" "10"
+	"minanimtime" "5"
+	"model" "models/bee2/props_ingame/pgun_pedestal.mdl"
+	"physdamagescale" "1.0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "0"
+	"solid" "6"
+	"targetname" "holderModel"
+	"origin" "-0.396439 0 -68"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "131"
+	"classname" "func_brush"
+	"_minlight" "0"
+	"disableflashlight" "0"
+	"disablereceiveshadows" "0"
+	"disableshadowdepth" "0"
+	"effects" "0"
+	"invert_exclusion" "0"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"origin" "0 -32 -61"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"shadowdepthnocache" "0"
+	"solid" "6"
+	"solidbsp" "0"
+	"solidity" "0"
+	"spawnflags" "2"
+	"startdisabled" "0"
+	"targetname" "checkmark"
+	"vrad_brush_cast_shadows" "0"
+	solid
+	{
+		"id" "113"
+		side
+		{
+			"id" "30"
+			"plane" "(-16 -16 -60) (16 -16 -60) (16 -48 -60)"
+			"material" "SIGNAGE/SIGNAGE_DOORSTATE"
+			"uaxis" "[1 0 0 -64] 0.25"
+			"vaxis" "[0 -1 0 -64] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "29"
+			"plane" "(-16 -48 -62) (16 -48 -62) (16 -16 -62)"
+			"material" "METAL/BLACK_FLOOR_METAL_001B_VERTEX"
+			"uaxis" "[1 0 0 -448] 0.25"
+			"vaxis" "[0 -1 0 -320] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "28"
+			"plane" "(-16 -16 -60) (-16 -48 -60) (-16 -48 -62)"
+			"material" "METAL/BLACK_FLOOR_METAL_001B_VERTEX"
+			"uaxis" "[0 1 0 320] 0.25"
+			"vaxis" "[0 0 -1 136] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "27"
+			"plane" "(16 -16 -62) (16 -48 -62) (16 -48 -60)"
+			"material" "METAL/BLACK_FLOOR_METAL_001B_VERTEX"
+			"uaxis" "[0 1 0 320] 0.25"
+			"vaxis" "[0 0 -1 136] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "26"
+			"plane" "(16 -16 -60) (-16 -16 -60) (-16 -16 -62)"
+			"material" "METAL/BLACK_FLOOR_METAL_001B_VERTEX"
+			"uaxis" "[1 0 0 -448] 0.25"
+			"vaxis" "[0 0 -1 136] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "25"
+			"plane" "(16 -48 -62) (-16 -48 -62) (-16 -48 -60)"
+			"material" "METAL/BLACK_FLOOR_METAL_001B_VERTEX"
+			"uaxis" "[1 0 0 -448] 0.25"
+			"vaxis" "[0 0 -1 136] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3500]"
+	}
+}
+entity
+{
+	"id" "146"
+	"classname" "trigger_weapon_strip"
+	"killweapons" "1"
+	"origin" "0 0 -27"
+	"solid" "6"
+	"spawnflags" "4097"
+	"startdisabled" "1"
+	"targetname" "triggerWS"
+	connections
+	{
+		"OnStartTouch" "outputFireUser10-1"
+		"OnStartTouch" "inputOFFDisable0-1"
+		"OnStartTouch" "holderModelSetAnimationNoResetclose0-1"
+		"OnStartTouch" "triggerWSKill0-1"
+		"OnStartTouch" "pgunmakerForceSpawn0-1"
+		"OnStartTouch" "inputONDisable0-1"
+	}
+	solid
+	{
+		"id" "144"
+		side
+		{
+			"id" "42"
+			"plane" "(-24 24 8) (24 24 8) (24 -24 8)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "41"
+			"plane" "(-24 -24 -62) (24 -24 -62) (24 24 -62)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "40"
+			"plane" "(-24 24 8) (-24 -24 8) (-24 -24 -62)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "39"
+			"plane" "(24 24 -62) (24 -24 -62) (24 -24 8)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "38"
+			"plane" "(24 24 8) (-24 24 8) (-24 24 -62)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "37"
+			"plane" "(24 -24 -62) (-24 -24 -62) (-24 -24 8)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4500]"
+	}
+}
+entity
+{
+	"id" "163"
+	"classname" "prop_dynamic"
+	"angles" "0 180 0"
+	"maxanimtime" "10"
+	"minanimtime" "5"
+	"model" "models/weapons/w_models/w_portalgun/w_portalgun.mdl"
+	"physdamagescale" "1.0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "0"
+	"solid" "6"
+	"spawnflags" "0"
+	"targetname" "PgunModel"
+	"origin" "10 0 -6"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 5000]"
+	}
+}
+entity
+{
+	"id" "364"
+	"classname" "logic_relay"
+	"angles" "0 0 0"
+	"targetname" "inputON"
+	connections
+	{
+		"OnTrigger" "txttoggleSetTextureIndex10-1"
+		"OnTrigger" "triggerWSEnable0-1"
+		"OnTrigger" "holderModelSetAnimationNoResetopen0-1"
+	}
+	"origin" "-39.0096 5.72081 -54"
+	editor
+	{
+		"color" "0 100 250"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 6000]"
+	}
+}
+entity
+{
+	"id" "366"
+	"classname" "logic_relay"
+	"angles" "0 0 0"
+	"targetname" "inputOFF"
+	connections
+	{
+		"OnTrigger" "txttoggleSetTextureIndex00-1"
+		"OnTrigger" "holderModelSetAnimationNoResetclose0-1"
+		"OnTrigger" "triggerWSDisable0-1"
+	}
+	"origin" "-36.4742 -28.1086 -54"
+	editor
+	{
+		"color" "0 100 250"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 6500]"
+	}
+}
+entity
+{
+	"id" "378"
+	"classname" "env_texturetoggle"
+	"angles" "0 0 0"
+	"target" "checkmark"
+	"targetname" "txttoggle"
+	"origin" "-37.1479 27.7517 -54"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 7000]"
+	}
+}
+entity
+{
+	"id" "453"
+	"classname" "logic_relay"
+	"angles" "0 0 0"
+	"targetname" "output"
+	"origin" "35.8168 1.01826 -54"
+	editor
+	{
+		"color" "0 100 250"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 7500]"
+	}
+}
+cameras
+{
+	"activecamera" "-1"
+}
+cordons
+{
+	"active" "0"
+}

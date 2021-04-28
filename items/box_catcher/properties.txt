@@ -1,7 +1,7 @@
 "Properties" {
 	"Authors"		"The_Enderek0"
 	"Tags"			"Custom"
-	"Description"	"Box catcher will hold a cube inserted into it. It can be a sphere, reflection cube - any type of the cube will pass. If you fizzle the cube in there, it will reset. When the input is ON, the box catcher will block itself and you won't be able to put a cube in it. If you want to invert input (OFF = catcher blocked) I recommend using NOT Gate, because Start Enabled option does nothing right now."
+	"Description"	"Box catcher will hold a cube inserted into it. It can be a sphere, reflection cube - any type of the cube will pass. If you fizzle the cube in there, it will reset. This item supports inputs to block itself. Also the Start Enabled option works now!"
 	"infoURL"		"https:/\/google.com/"
 	"Ent_count"     "0"
 	"Icon" {

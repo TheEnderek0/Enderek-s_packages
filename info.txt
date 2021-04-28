@@ -15,7 +15,11 @@
 	"Version" {
 		"ID" "VER_DEFAULT"
 		"Styles" {
-			"ANY_STYLE" "breakable_glass"
+			"BEE2_CLEAN"        "breakable_glass"
+			"BEE2_BTS"          "breakable_glass"
+			"BEE2_PORTAL_1"     "breakable_glass"
+			"BEE2_1950s"        "breakable_glass"
+			"BEE2_OVERGROWN"    "OVER/breakable_glass"
 }}}
 "Item" {
 	"ID" "ITEM_TARGET"
@@ -29,7 +33,14 @@
 	"Version" {
 		"ID" "VER_DEFAULT"
 		"Styles" {
-			"ANY_STYLE" "toggle_button"
+			"BEE2_CLEAN"        "toggle_button"
+			"BEE2_BTS"          "toggle_button"
+			"BEE2_PORTAL_1"     "P1/toggle_button"
+			"BEE2_1950s"        "1950s/toggle_button"
+			"BEE2_OVERGROWN"    "OVER/toggle_button"
+			"BEE2_1960s"        "1950s/toggle_button"
+			"BEE2_1970s"        "1950s/toggle_button"
+			"BEE2_1980s"        "1950s/toggle_button"
 }}}
 "Item" {
 	"ID" "ITEM_TURRET_TARGET"
@@ -44,4 +55,38 @@
 		"ID" "VER_DEFAULT"
 		"Styles" {
 			"ANY_STYLE" "column"
+}}}
+"Item" {
+	"ID" "ITEM_HEP_CUBE"
+	"Version" {
+		"ID" "VER_DEFAULT"
+		"Styles" {
+			"ANY_STYLE" "hep_cube"
+}}}
+"Item" {
+	"ID" "ITEM_HEP_DROPPER_CUBE"
+	"Version" {
+		"ID" "VER_DEFAULT"
+		"Styles" {
+			"BEE2_CLEAN"        "hep_cube_dropper"
+			"BEE2_BTS"          "hep_cube_dropper"
+			"BEE2_PORTAL_1"     "P1/hep_cube_dropper"
+			"BEE2_1950s"        "1950s/hep_cube_dropper"
+			"BEE2_OVERGROWN"    "OVER/hep_cube_dropper"
+			"BEE2_1960s"        "1950s/hep_cube_dropper"
+			"BEE2_1970s"        "1950s/hep_cube_dropper"
+			"BEE2_1980s"        "1950s/hep_cube_dropper"
+}}}
+"Item" {
+	"ID" "ITEM_BTS_DOOR"
+	"Version" {
+		"ID" "VER_DEFAULT"
+		"Styles" {
+			"ANY_STYLE"        "bts_door"
+}}}
+"Item" {
+	"ID" "ITEM_UPGRADE_STATION"
+	"Version" {
+		"Styles" {
+			"ANY_STYLE"	"upgrade_station"
 }}}
