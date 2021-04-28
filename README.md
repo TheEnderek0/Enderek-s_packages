@@ -3,7 +3,7 @@ Here you can find all of my BEE2 packages
 
 Made for: 4.39.2
 Tested on: 4.39.2
-Latest version: 1.5.0
+Latest version: 1.6.0
 
  `This package adds useful items, here is the full list with descriptions: `
 
@@ -28,6 +28,11 @@ Cube that can store and release a HEP.
 > **HEP Redirection Cube Dropper**
 Works like a normal cube dropper, but it drops a **HEP Redirection Cube**
 
+> **BTS Sliding Door**
+This item is a door that can be seen in the BTS areas in P2 campaign (mainly chamberlocks).
+
+> **Upgrade Station**
+This item is a recreation of upgrade station present in Factum Solus. It will change your Portal Gun to what you set it to.
 
 
 **Styled Items**
@@ -49,8 +54,6 @@ Works like a normal cube dropper, but it drops a **HEP Redirection Cube**
 ```
 Known issues with items:
 
-- Toggle buttons do not have apropriate models in style P1 and Retro.
+- Toggle buttons do not have apropriate models in style P1.
 - Expanded Breakable Glass: When 1 piece of glass is hit, all of the pieces break at the same time. Does happen only on the expanded item and only on it. 
-
-
 ```
