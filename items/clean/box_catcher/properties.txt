@@ -1,0 +1,10 @@
+"Properties" {
+	"Authors"		"The_Enderek0"
+	"Tags"			"Custom"
+	"Description"	"Box catcher will hold a cube inserted into it. It can be a sphere, reflection cube - any type of the cube will pass. If you fizzle the cube in there, it will reset. This item supports inputs to block itself. Also the Start Enabled option works now!"
+	"infoURL"		"https:/\/google.com/"
+	"Ent_count"     "16"
+	"Icon" {
+		"0"	"clean/box_catcher.png"
+	}
+}

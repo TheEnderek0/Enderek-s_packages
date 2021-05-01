@@ -9,7 +9,7 @@
 			}
 			"Palette" {
 				"Tooltip"	"HEP Redirection Cube Dropper"
-				"Image"		"clean/hep_cube.png"
+				"Image"		"palette/clean/hep_cube.png"
 				"Position"	"1 6 0"
 			}
 		    "Sounds" {

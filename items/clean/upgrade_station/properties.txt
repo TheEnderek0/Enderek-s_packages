@@ -1,0 +1,10 @@
+"Properties" {
+	"Authors"		"The_Enderek0"
+	"Tags"			"Custom"
+	"Description"	"Portal gun pedestal that can change your portal gun. It has start enabled option. The cube type property determines which portal gun should be given to you. Standard - **None**; Companion - **Blue only**; Reflective - **Orange only**; Sphere - **Dual**. For giving someone a portal gun, please use normal PGun pedestal. Input blocks/unblocks the pedestal. This item fires output when it's used."
+	"infoURL"		"https:/\/google.com/"
+	"Ent_count"     "9"
+	"Icon" {
+		"0"	"clean/upgrade_station.png"
+	}
+}

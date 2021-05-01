@@ -9,7 +9,7 @@
 			}
 			"Palette" {
 				"Tooltip"	"Toggle Button"
-				"Image"		"clean/toggle_button.vtf"
+				"Image"		"palette/clean/toggle_button.vtf"
 				"Position"	"1 6 0"
 			}
 		    "Sounds" {

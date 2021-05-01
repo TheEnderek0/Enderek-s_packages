@@ -4,7 +4,7 @@
     "Version" {
         "ID" "VER_DEFAULT"
         "Styles" {
-            "ANY_STYLE" "box_catcher"
+            "ANY_STYLE" "clean/box_catcher"
         }
     }
 }
@@ -15,64 +15,64 @@
 	"Version" {
 		"ID" "VER_DEFAULT"
 		"Styles" {
-			"BEE2_CLEAN"        "breakable_glass"
-			"BEE2_BTS"          "breakable_glass"
-			"BEE2_PORTAL_1"     "breakable_glass"
-			"BEE2_1950s"        "breakable_glass"
-			"BEE2_OVERGROWN"    "OVER/breakable_glass"
+			"BEE2_CLEAN"        "clean/breakable_glass"
+			"BEE2_BTS"          "clean/breakable_glass"
+			"BEE2_PORTAL_1"     "clean/breakable_glass"
+			"BEE2_1950s"        "clean/breakable_glass"
+			"BEE2_OVERGROWN"    "over/breakable_glass"
 }}}
 "Item" {
 	"ID" "ITEM_TARGET"
 	"Version" {
 		"ID" "VER_DEFAULT"
 		"Styles" {
-			"ANY_STYLE" "rocket_turret_target"
+			"ANY_STYLE" "clean/rocket_turret_target"
 }}}
 "Item" {
 	"ID" "ITEM_TOGGLE_BUTTON"
 	"Version" {
 		"ID" "VER_DEFAULT"
 		"Styles" {
-			"BEE2_CLEAN"        "toggle_button"
-			"BEE2_BTS"          "toggle_button"
+			"BEE2_CLEAN"        "clean/toggle_button"
+			"BEE2_BTS"          "clean/toggle_button"
 			"BEE2_PORTAL_1"     "P1/toggle_button"
 			"BEE2_1950s"        "1950s/toggle_button"
-			"BEE2_OVERGROWN"    "OVER/toggle_button"
+			"BEE2_OVERGROWN"    "over/toggle_button"
 			"BEE2_1960s"        "1950s/toggle_button"
 			"BEE2_1970s"        "1950s/toggle_button"
 			"BEE2_1980s"        "1950s/toggle_button"
 }}}
 "Item" {
-	"ID" "ITEM_TURRET_TARGET"
+	"ID" "ITEM_SIGN"
 	"Version" {
 		"ID" "VER_DEFAULT"
 		"Styles" {
-			"ANY_STYLE" "turret_target"
+			"ANY_STYLE" "clean/info_sign"
 }}}
 "Item" {
 	"ID" "ITEM_COLUMN"
 	"Version" {
 		"ID" "VER_DEFAULT"
 		"Styles" {
-			"ANY_STYLE" "column"
+			"ANY_STYLE" "clean/column"
 }}}
 "Item" {
 	"ID" "ITEM_HEP_CUBE"
 	"Version" {
 		"ID" "VER_DEFAULT"
 		"Styles" {
-			"ANY_STYLE" "hep_cube"
+			"ANY_STYLE" "clean/hep_cube"
 }}}
 "Item" {
 	"ID" "ITEM_HEP_DROPPER_CUBE"
 	"Version" {
 		"ID" "VER_DEFAULT"
 		"Styles" {
-			"BEE2_CLEAN"        "hep_cube_dropper"
-			"BEE2_BTS"          "hep_cube_dropper"
+			"BEE2_CLEAN"        "clean/hep_cube_dropper"
+			"BEE2_BTS"          "clean/hep_cube_dropper"
 			"BEE2_PORTAL_1"     "P1/hep_cube_dropper"
 			"BEE2_1950s"        "1950s/hep_cube_dropper"
-			"BEE2_OVERGROWN"    "OVER/hep_cube_dropper"
+			"BEE2_OVERGROWN"    "over/hep_cube_dropper"
 			"BEE2_1960s"        "1950s/hep_cube_dropper"
 			"BEE2_1970s"        "1950s/hep_cube_dropper"
 			"BEE2_1980s"        "1950s/hep_cube_dropper"
@@ -82,11 +82,24 @@
 	"Version" {
 		"ID" "VER_DEFAULT"
 		"Styles" {
-			"ANY_STYLE"        "bts_door"
+			"ANY_STYLE"        "clean/bts_door"
 }}}
 "Item" {
 	"ID" "ITEM_UPGRADE_STATION"
 	"Version" {
 		"Styles" {
-			"ANY_STYLE"	"upgrade_station"
+			"ANY_STYLE"	"clean/upgrade_station"
+}}}
+"Item" {
+	"ID" "ITEM_TELEPORTER"
+	"Version" {
+		"Styles" {
+			"ANY_STYLE" "clean/teleporter_entry-exit"
+}}}
+"Item" {
+	"ID" "ITEM_PORTAL_ENTRANCE"
+	"Version" {
+		"Styles" {
+			"BEE2_CLEAN" "clean/portal_entrance"
+			"BEE2_PORTAL_1" "P1/portal_entrance"
 }}}
