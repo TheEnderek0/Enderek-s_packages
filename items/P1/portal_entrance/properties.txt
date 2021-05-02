@@ -5,6 +5,6 @@
 	"infoURL"		"https:/\/google.com/"
 	"Ent_count"     "23"
 	"Icon" {
-		"0"	"clean/portal_entance.png"
+		"0"	"clean/portal_entrance.png"
 	}
 }

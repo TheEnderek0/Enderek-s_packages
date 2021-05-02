@@ -21,6 +21,7 @@
 		}
 		"MovementHandle" "HANDLE_NONE"
 		"InvalidSurface" "FLOOR CEILING"
+		"DesiredFacing"  "DESIRES_UP"
 		"CanAnchorOnBarriers" "0"
 		"CanAnchorOnGoo" "0"
 	}
