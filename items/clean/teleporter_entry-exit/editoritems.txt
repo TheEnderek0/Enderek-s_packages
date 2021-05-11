@@ -64,13 +64,10 @@
 			}
 		"EmbeddedVoxels"
 			{
-			"Voxel"
+			"Volume"
 				{
-				"Pos"		"0 0 2"
-				}
-			"Voxel" 
-				{
-				"Pos" "0 0 3"
+				"Pos1"		"0 0 2"
+				"Pos2" "0 0 3"
 				}
 			}
 

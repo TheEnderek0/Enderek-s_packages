@@ -3,7 +3,7 @@ Here you can find all of my BEE2 packages
 
 Made for: 4.39.2
 Tested on: 4.39.2
-Latest version: 1.6.0
+Latest version: 1.8.0
 
  `This package adds useful items, here is the full list with descriptions: `
 
@@ -39,6 +39,12 @@ Custom entrances/exits for your test chamber. This is styled on Portal Reloaded 
 
 > **Portal Entrance/exit**
 This is styled on Blue Portals entrances/exits. Please check BEE2 before using this item.
+
+> **Drop Entrance/Exit**
+
+> **Portal Linkage Selector**
+This item allows you to place more than 2 portals! Please read the BEE2 description about usage of this item.
+
 
 **Styled Items**
 

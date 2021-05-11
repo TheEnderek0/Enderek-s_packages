@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8874"
-	"mapversion" "71"
+	"mapversion" "80"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "71"
+	"mapversion" "80"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -62,7 +62,7 @@ entity
 	{
 		"OnTrigger" "sound2PlaySound0-1"
 	}
-	"origin" "-42 -34 -3.92676"
+	"origin" "-6 -10 -3.92676"
 	editor
 	{
 		"color" "0 100 250"
@@ -381,7 +381,7 @@ entity
 	"filterclass" "prop_energy_ball"
 	"Negated" "Allow entities that match criteria"
 	"targetname" "filter"
-	"origin" "61.592 -4.459 -2"
+	"origin" "0 8 -2"
 	editor
 	{
 		"color" "0 255 0"
@@ -429,7 +429,7 @@ entity
 		"OnHitMax" "soundGateDisable0-1"
 		"OnHitMax" "soundGateEnable1-1"
 	}
-	"origin" "39.181 -2.222 -2"
+	"origin" "8 8 -2"
 	editor
 	{
 		"color" "0 100 250"
@@ -452,7 +452,7 @@ entity
 		"OnTimer" "counterAdd10-1"
 		"OnTimer" "soundGateTrigger0.01-1"
 	}
-	"origin" "52.936 -16.838 -2"
+	"origin" "8 -6 -2"
 	editor
 	{
 		"color" "0 100 250"
@@ -474,7 +474,7 @@ entity
 		"OnUser2" "triggerEnable0.25-1"
 		"OnUser2" "spriteShowSprite0-1"
 	}
-	"origin" "66 31.0693 -2"
+	"origin" "-8 8 -2"
 	editor
 	{
 		"color" "0 100 250"

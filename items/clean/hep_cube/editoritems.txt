@@ -1,7 +1,6 @@
 "Item"
 	{
 	"Type"			"ITEM_HEP_CUBE"
-	"ItemClass" "ItemCube"
 	"Editor"
 		{
 		"SubType"
@@ -54,7 +53,7 @@
 			"DefaultValue" "0"
 			"Index"        "3"
 			}
-		}
+}
 	"Exporting"
 		{
 		"Instances"

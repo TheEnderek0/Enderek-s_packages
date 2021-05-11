@@ -1,0 +1,10 @@
+"Properties" {
+	"Authors"		"The_Enderek0"
+	"Tags"			"Custom"
+	"Description"	""
+	"infoURL"		"https:/\/google.com/"
+	"Ent_count"     "2"
+	"Icon" {
+		"0"	"clean/bts_push_door.png"
+	}
+}

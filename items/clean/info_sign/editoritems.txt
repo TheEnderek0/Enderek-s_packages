@@ -40,13 +40,6 @@
 		}
 		"TargetName"		"info_sign"
 		"Offset"		"64 64 64"
-		"OccupiedVoxels"
-			{
-			"Voxel"
-				{
-				"Pos"		"0 0 0"
-				}
-			}
 		"Inputs"
 			{
 			"BEE2"

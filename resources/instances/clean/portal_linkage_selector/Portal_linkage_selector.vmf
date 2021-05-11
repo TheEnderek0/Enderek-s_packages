@@ -1,0 +1,102 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "8874"
+	"mapversion" "1"
+	"formatversion" "100"
+	"prefab" "0"
+}
+visgroups
+{
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "0"
+	"nGridSpacing" "16"
+	"bShow3DGrid" "0"
+}
+world
+{
+	"id" "1"
+	"mapversion" "1"
+	"classname" "worldspawn"
+	"skyname" "sky_black_nofog"
+	"maxpropscreenwidth" "-1"
+	"detailvbsp" "detail.vbsp"
+	"detailmaterial" "detail/detailsprites"
+	"maxblobcount" "250"
+}
+entity
+{
+	"id" "3"
+	"classname" "point_clientcommand"
+	"angles" "0 0 0"
+	"targetname" "clientcommand"
+	"origin" "-16 16 0"
+	editor
+	{
+		"color" "200 0 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "7"
+	"classname" "logic_relay"
+	"angles" "0 0 0"
+	"targetname" "inputON"
+	connections
+	{
+		"OnTrigger" "clientcommandCommandchange_portalgun_linkage_id $timer_delay0-1"
+		"OnSpawn" "servercommandCommandsv_cheats 10-1"
+	}
+	"origin" "-16 -16 0"
+	editor
+	{
+		"color" "0 100 250"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "11"
+	"classname" "func_instance_io_proxy"
+	"targetname" "proxy"
+	"origin" "-1.82745 -16 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2000]"
+	}
+}
+entity
+{
+	"id" "24"
+	"classname" "point_servercommand"
+	"angles" "0 0 0"
+	"targetname" "servercommand"
+	"origin" "16 16 0"
+	editor
+	{
+		"color" "200 0 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2500]"
+	}
+}
+cameras
+{
+	"activecamera" "-1"
+}
+cordons
+{
+	"active" "0"
+}
