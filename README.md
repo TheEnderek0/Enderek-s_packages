@@ -45,6 +45,8 @@ This is styled on Blue Portals entrances/exits. Please check BEE2 before using t
 > **Portal Linkage Selector**
 This item allows you to place more than 2 portals! Please read the BEE2 description about usage of this item.
 
+> **BTS Push Door**
+A manual door from BTS scenes.
 
 **Styled Items**
 
