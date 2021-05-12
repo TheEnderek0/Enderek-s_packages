@@ -1,7 +1,7 @@
 "Properties" {
 	"Authors"		"The_Enderek0"
 	"Tags"			"Custom"
-	"Description"	"A cube that can redirect HEPs. Set timer value to delay time before this cube launches HEP."
+	"Description"	"A cube that can redirect HEPs. Set timer value to delay time before this cube launches HEP. It will also behave like normal Redirection Cube (Reflect Lasers)."
 	"infoURL"		"https:/\/google.com/"
 	"Ent_count"     "0"
 	"Icon" {

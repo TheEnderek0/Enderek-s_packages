@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8874"
-	"mapversion" "420"
+	"mapversion" "421"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -50,7 +50,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "420"
+	"mapversion" "421"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -1211,7 +1211,7 @@ entity
 	"classname" "prop_weighted_cube"
 	"allowfunnel" "1"
 	"angles" "0 180 0"
-	"cubetype" "6"
+	"cubetype" "2"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"inertiascale" "1.0"
