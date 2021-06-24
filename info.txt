@@ -233,6 +233,7 @@
 	"" "* Start reversed unchecked - activated by inputs."
 	"" "* **WARNING** If you want to play looping sounds be sure Auto Drop property is checked!"
 	"" "* Looped sounds will stop playing as soon as player steps out of the trigger / turns input off."
+	"" "* Click more info to see voice line documentation."
 }
 	"Version" {
 		"Styles" {
