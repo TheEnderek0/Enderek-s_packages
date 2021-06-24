@@ -1,0 +1,11 @@
+"Properties" {
+	"Authors"		"The_Enderek0"
+	"Tags"			"Custom"
+	"infoURL"		"https:/\/google.com/"
+	"Ent_count"     "5"
+	"Icon" {
+		"0"	"clean/time_controller.png"
+		"1"	"clean/time_controller.png"
+		"2"	"clean/time_controller.png"
+	}
+}

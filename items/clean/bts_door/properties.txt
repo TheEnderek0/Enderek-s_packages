@@ -1,7 +1,7 @@
 "Properties" {
 	"Authors"		"The_Enderek0"
 	"Tags"			"Custom"
-	"Description"	"Sliding BTS Door from Portal 2 campaign."
+	"Description"	""
 	"infoURL"		"https:/\/google.com/"
 	"Ent_count"     "4"
 	"Icon" {

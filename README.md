@@ -3,7 +3,8 @@ Here you can find all of my BEE2 packages
 
 Made for: 4.39.2
 Tested on: 4.39.2
-Latest version: 1.8.0
+Latest version: 2.0.0
+Incompatible with: 4.36.x
 
  `This package adds useful items, here is the full list with descriptions: `
 
@@ -33,27 +34,36 @@ This item is a door that can be seen in the BTS areas in P2 campaign (mainly cha
 
 > **Upgrade Station**
 This item is a recreation of upgrade station present in Factum Solus. It will change your Portal Gun to what you set it to.
-
-> **Teleporter Entrance/exit**
-Custom entrances/exits for your test chamber. This is styled on Portal Reloaded "Teleporter". Please check BEE2 description before using.
-
-> **Portal Entrance/exit**
-This is styled on Blue Portals entrances/exits. Please check BEE2 before using this item.
-
-> **Drop Entrance/Exit**
+Incompatible with coop.
 
 > **Portal Linkage Selector**
 This item allows you to place more than 2 portals! Please read the BEE2 description about usage of this item.
+Incompatible with coop mode.
 
 > **BTS Push Door**
 A manual door from BTS scenes.
+
+> **Vactube Droppers**
+Make your own droppers!
+
+> **Ping Panel**
+Ping panels for coop.
+
+> **Sound Trigger**
+Play your sounds in the map!
+
+> **Time Controller**
+Slow down time with this item!
+
+> **PLS Fizzler**
+Fizzler for Portal Linkage Selector.
+
 
 **Styled Items**
 
 **A) Portal 1 Style**
 - Toggle Button
 - HEP Redirection Cube Dropper
-- Portal Entrance/exit
 
 **B) Overgrown**
 - Breakable Glass

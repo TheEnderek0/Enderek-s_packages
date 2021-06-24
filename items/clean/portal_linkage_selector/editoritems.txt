@@ -1,4 +1,6 @@
 "Item" {
+
+"ItemClass" "ItemButtonFloor"
     "Type" "ITEM_PORTAL_SELECTOR"
     
     "Editor" {
@@ -26,21 +28,47 @@
 		"CanAnchorOnGoo" "0"
 	}
 	"Properties" {
+		"ConnectionCount"
+			{
+			"DefaultValue" "0"
+			"Index" "0"
+			}
 		"StartReversed"
 			{
 			"DefaultValue"	"0"
 			"Index"			"1"
 			}
-		"TimerDelay"
+			"ButtonType"
 			{
-			"DefaultValue" "1"
-			"Index"        "30"
+				"DefaultValue"	"0"
+				"Index"			"0"
 			}
+
 	}
 	"Exporting" {
 		"Instances" {
 			"0" {
-				"Name" "instances/BEE2/clean/portal_linkage_selector/portal_linkage_selector.vmf"
+				"Name" "instances/BEE2/clean/portal_linkage_selector/portal_linkage_selector_id1.vmf"
+				"EntityCount" "2"
+			}
+			"1" {
+				"Name" "instances/BEE2/clean/portal_linkage_selector/portal_linkage_selector_id1.vmf"
+				"EntityCount" "2"
+			}
+			"2" {
+				"Name" "instances/BEE2/clean/portal_linkage_selector/portal_linkage_selector_id2.vmf"
+				"EntityCount" "2"
+			}
+			"3" {
+				"Name" "instances/BEE2/clean/portal_linkage_selector/portal_linkage_selector_id2.vmf"
+				"EntityCount" "2"
+			}
+			"4" {
+				"Name" "instances/BEE2/clean/portal_linkage_selector/portal_linkage_selector_id3.vmf"
+				"EntityCount" "2"
+			}
+			"5" {
+				"Name" "instances/BEE2/clean/portal_linkage_selector/portal_linkage_selector_id3.vmf"
 				"EntityCount" "2"
 			}
 		}

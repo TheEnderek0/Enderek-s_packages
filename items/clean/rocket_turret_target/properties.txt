@@ -1,7 +1,6 @@
 "Properties" {
 	"Authors"		"The_Enderek0"
 	"Tags"			"Custom"
-	"Description"	"Target for rocket turrets. Outputs signal when rocket hits the center."
 	"infoURL"		"https:/\/google.com/"
 	"Ent_count"     "0"
 	"Icon" {

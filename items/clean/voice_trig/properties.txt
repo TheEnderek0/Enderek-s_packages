@@ -1,0 +1,9 @@
+"Properties" {
+	"Authors"		"The_Enderek0"
+	"Tags"			"Custom"
+	"infoURL"		"https://github.com/TheEnderek0/Enderek-s_packages/wiki/Voice-Lines-for-Sound-Trigger"
+	"Ent_count"     "2 - Trigger, 3 - Toggle"
+	"Icon" {
+		"0"	"clean/voice_trig.png"
+	}
+}

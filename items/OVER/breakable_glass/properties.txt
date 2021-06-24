@@ -1,7 +1,6 @@
 "Properties" {
 	"Authors"		"The_Enderek0"
 	"Tags"			"Custom"
-	"Description"	"Glass, that breaks when something explodes near it. The cube type property is used to cycle through patterns. This item fires an output when the glass piece is broken."
 	"infoURL"		"https:/\/google.com/"
 	"Ent_count"     "0"
 	"Icon" {

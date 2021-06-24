@@ -1,6 +1,12 @@
 "ID" "Enderek-s_packages"
 "Item" {
     "ID" "ITEM_BOX_CATCHER"
+    "Description"
+{
+	"" "Box catcher will hold a cube inserted into it. It can be a sphere, reflection cube - any type of the cube will pass."
+	"" "* If you fizzle the cube in there, it will reset."
+	"" "* This item supports inputs to block itself."
+}
     "Version" {
         "ID" "VER_DEFAULT"
         "Styles" {
@@ -14,8 +20,15 @@
 	"file"  "box_catcher.vmf"
 	}
 
+
 "Item" {
 	"ID" "ITEM_BARRIER_BREAKABLE"
+	"Description"
+{
+	"" "Glass, that breaks when something explodes near it."
+	"" "* The cube type property is used to cycle through patterns."
+	"" "* This item fires an output when the glass piece is broken."
+}	
 	"Version" {
 		"ID" "VER_DEFAULT"
 		"Styles" {
@@ -25,16 +38,21 @@
 			"BEE2_1950s"        "clean/breakable_glass"
 			"BEE2_OVERGROWN"    "over/breakable_glass"
 }}}
+
+
 "Item" {
 	"ID" "ITEM_TARGET"
+	"Description"	"Target for rocket turrets. Outputs a pulse when rocket hits the center."
 	"Version" {
 		"ID" "VER_DEFAULT"
 		"Styles" {
 			"ANY_STYLE" "clean/rocket_turret_target"
 }}}
 
+
 "Item" {
 	"ID" "ITEM_TOGGLE_BUTTON"
+	"Description"	"Just a toggle button."
 	"Version" {
 		"ID" "VER_DEFAULT"
 		"Styles" {
@@ -53,15 +71,18 @@
 	"file"  "toggle_button.vmf"
 	}
 
-"Item" {
-	"ID" "ITEM_SIGN"
-	"Version" {
-		"ID" "VER_DEFAULT"
-		"Styles" {
-			"ANY_STYLE" "clean/info_sign"
-}}}
+
 "Item" {
 	"ID" "ITEM_COLUMN"
+	"Description"
+{
+	"" "Cube Type:"
+	"" "* Normal = max left" 
+	"" "* Companion = left" 
+	"" "* Reflect = right" 
+	"" "* Sphere = max right"
+	"" "* When Start Enabled is disabled, the pillar will be white. When Start Enabled is enabled, the pillar will be black."
+}
 	"Version" {
 		"ID" "VER_DEFAULT"
 		"Styles" {
@@ -69,6 +90,12 @@
 }}}
 "Item" {
 	"ID" "ITEM_HEP_CUBE"
+	"Description"
+{
+	"" "A cube that can redirect HEPs."
+	"" "* Set timer value to delay time before this cube launches HEP."
+	"" "* It will also behave like normal Redirection Cube (Reflect Lasers)."
+}	
 	"Version" {
 		"ID" "VER_DEFAULT"
 		"Styles" {
@@ -76,6 +103,7 @@
 }}}
 "Item" {
 	"ID" "ITEM_HEP_DROPPER_CUBE"
+	"Description"	"A dropper for HEP Cubes."
 	"Version" {
 		"ID" "VER_DEFAULT"
 		"Styles" {
@@ -104,48 +132,30 @@
 
 "Item" {
 	"ID" "ITEM_UPGRADE_STATION"
+	"Description"
+{
+	"" "Portal gun pedestal that can change your portal gun."
+	"" "* It has start enabled option."
+	"" "* The cube type property determines which portal gun should be given to you when changing the portal gun."
+	"" "* Standard - **None**"
+	"" "* Companion - **Blue only**"
+	"" "* Reflective - **Orange only**"
+	"" "* Sphere - **Dual**"
+	"" "* For just giving someone a portal gun, please use normal PGun pedestal."
+	"" "* Input blocks/unblocks the pedestal."
+	"" "* This item fires output when it's used."
+}	
 	"Version" {
 		"Styles" {
 			"ANY_STYLE"	"clean/upgrade_station"
 }}}
-
-"Item" {
-	"ID" "ITEM_TELEPORTER"
-	"Version" {
-		"Styles" {
-			"ANY_STYLE" "clean/teleporter_entry-exit"
-}}}
-
-"Item" {
-	"ID" "ITEM_PORTAL_ENTRANCE"
-	"Version" {
-		"Styles" {
-			"BEE2_CLEAN" "clean/portal_entrance"
-			"BEE2_PORTAL_1" "P1/portal_entrance"
-}}}
 "BrushTemplate"
 	{
-	"ID"    "temp_portal_entrance"
-	"file"  "portal_entrance.vmf"
-	}
-"BrushTemplate"
-	{
-	"ID"    "temp_portal_entrance_blank"
-	"file"  "portal_entrance_blank.vmf"
+	"ID"    "temp_upgrade_station"
+	"file"  "upgrade_station.vmf"
 	}
 
-"Item" {
-	"ID" "ITEM_DROP_EXIT"
-	"Version" {
-		"Styles" {
-			"ANY_STYLE" "clean/drop_exit"
-}}}
-"Item" {
-	"ID" "ITEM_DROP_ENTRANCE"
-	"Version" {
-		"Styles" {
-			"ANY_STYLE" "clean/drop_entrance"
-}}}
+
 "Item" {
 	"ID" "ITEM_BTS_PUSH_DOOR"
 	"Version" {
@@ -159,7 +169,159 @@
 	}
 "Item" {
 	"ID" "ITEM_PORTAL_SELECTOR"
+	"Description"
+{
+	"" "Portal Linkage Selector that lets you change portal gun linkage id by an input."
+	"" "* Set the timer delay to select linkage id."
+	"" "* Setting the timer to 1 will make this item reset the linkage id."
+	"" "* Start reversed makes it that the portal linkage id is changed only when input is activated, when the input is deactivated it will reset the linkage id."
+	"" "* **Due to functionality of this item, you need to use PLS Fizzler to fizzle all portals.**"
+}
 	"Version" {
 		"Styles" {
 			"ANY_STYLE" "clean/portal_linkage_selector"
 }}}
+"Item" {
+	"ID" "ITEM_VAC_END"
+	"Description"
+{
+	"" "Ending for vactube droppers." 
+	"" "* **WARNING** In order to use this item properly, connect its output to the Vactube Dropper Start!"
+	"" "* Click More Info to see placement tips."
+}	
+	"Version" {
+		"Styles" {
+			"ANY_STYLE" "clean/vac_end"
+}}}
+"BrushTemplate"
+	{
+	"ID" "temp_vac_start"
+	"file" "vac_start"
+	}
+"Item" {
+	"ID" "ITEM_VAC_START"
+"Description"	
+{
+	"" "Start for vactube droppers."
+	"" "* Connect its input to Vactube Dropper End"
+	"" "* Select the cube type by using the cube type property!"
+	"" "* Click More Info to see placement tips."
+}
+	"Version" {
+		"Styles" {
+			"ANY_STYLE" "clean/vac_start"
+}}}
+"Item" {
+	"ID" "ITEM_VAC_START_HEPRC"
+	"Description"
+{
+	"" "Start for vactube droppers."
+	"" "* Connect its input to Vactube Dropper End."
+	"" "* This item spawns HEPRC."
+	"" "* Click More Info to see placement tips."
+}
+	"Version" {
+		"Styles" {
+			"ANY_STYLE" "clean/vac_start_heprc"
+}}}
+"Item" {
+	"ID" "ITEM_VOICE_TRIG"
+	"Description"
+{
+	"" "These triggers can trigger any sounds, specify the sounds in the items tab in BEE2."
+	"" "* Start reversed checked - integrated trigger_once, the sound will play whenever player enters the area of the trigger."
+	"" "* Start reversed unchecked - activated by inputs."
+	"" "* **WARNING** If you want to play looping sounds be sure Auto Drop property is checked!"
+	"" "* Looped sounds will stop playing as soon as player steps out of the trigger / turns input off."
+}
+	"Version" {
+		"Styles" {
+			"ANY_STYLE" "clean/voice_trig"
+}}}
+"Item" {
+	"ID" "ITEM_PING_PANEL"
+	"Description"
+{
+	"" "Ping panel for coop. It outputs 1 second pulse when pinged. Button type specifies type:"
+	"" "* Weighted - Dual (Both players can activate it)"
+	"" "* Cube - ATLAS"
+	"" "* Sphere - P-Body"
+}
+	"Version" {
+		"Styles" {
+			"ANY_STYLE" "clean/ping_panel"
+}}}
+
+"Item" {
+	"ID" "ITEM_PLS_FIZZLER"
+	"Description"
+{
+	"" "Fixed version of Absolute Fizzler for Portal Linkage Selector."
+}
+	"Version" {
+		"Styles" {
+			"ANY_STYLE" "clean/pls_fizzler"
+}}}
+	
+"Item" {
+	"ID" "ITEM_TIME_CONTROLLER"
+	"Description"
+{
+	"" "This item can slow down time! Set Button Type property to set the time:"
+	"" "* Weighted - 0.7"
+	"" "* Cube - 0.5"
+	"" "* Sphere - 0.3"
+}
+	"Version" {
+		"Styles" {
+			"ANY_STYLE" "clean/time_controller"
+}}}
+	
+
+
+"ConfigGroup"
+{
+    "ID"    "VOICE_TRIG"
+    "Name"  "Enderek Sound Trigger - Sounds"
+    "Widget"
+	{
+        "ID"        "EN_SOUND"
+        "Label"     "Sound"
+        "Type"      "String"
+        "UseTimer"  "1"
+        "Default"
+		{
+	    "1"	 ""
+	    "2"  ""
+            "3"  ""
+            "4"  ""
+            "5"  ""
+            "6"  ""
+            "7"  ""
+            "8"  ""
+            "9"  ""
+            "10" ""
+            "11" ""
+            "12" ""
+            "13" ""
+            "14" ""
+            "15" ""
+            "16" ""
+            "17" ""
+            "18" ""
+            "19" ""
+            "20" ""
+            "21" ""
+            "22" ""
+            "23" ""
+            "24" ""
+            "25" ""
+            "26" ""
+            "27" ""
+            "28" ""
+            "29" ""
+            "30" ""
+		}
+        "Tooltip" "Sounds to use in Sound Trigger"
+	}
+}

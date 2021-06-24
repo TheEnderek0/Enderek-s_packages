@@ -1,9 +1,8 @@
 "Properties" {
 	"Authors"		"The_Enderek0"
 	"Tags"			"Custom"
-	"Description"	"Portal Linkage Selector that lets you change portal gun linkage id by an input. Set the timer delay to select linkage id. Setting the timer to 1 will make this item reset the linkage id. Start reversed makes it that the portal linkage id is changed only when input is activated, when the input is deactivated it will reset the linkage id. Beware that placing more than 2 pairs of portals on one surface will break the visual appearance of the surface. **Due to functionality of this item, only one pair of portals used at the moment will fizzle when passing through a fizzler. For a solution to this problem, click More Info.**"
-	"infoURL"		"https://github.com/TheEnderek0/Enderek-s_packages/wiki/Portal-Linkage-Selector-%7C-Fizzling-Portals"
-	"Ent_count"     "4 - Normal, 5 - Toggle"
+	"infoURL"		""
+	"Ent_count"     "0"
 	"Icon" {
 		"0"	"clean/portal_selector.png"
 	}

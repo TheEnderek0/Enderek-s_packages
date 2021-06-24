@@ -1,8 +1,8 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "8874"
-	"mapversion" "424"
+	"editorbuild" "8973"
+	"mapversion" "425"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -50,13 +50,13 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "8"
+	"nGridSpacing" "2"
 	"bShow3DGrid" "0"
 }
 world
 {
 	"id" "1"
-	"mapversion" "424"
+	"mapversion" "425"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -1756,136 +1756,6 @@ entity
 }
 entity
 {
-	"id" "7851"
-	"classname" "func_tank"
-	"ammo_count" "-1"
-	"angles" "0 180 0"
-	"barrel" "0"
-	"barrely" "0"
-	"barrelz" "0"
-	"bullet_damage" "0"
-	"bullet_damage_vs_player" "0"
-	"disableflashlight" "0"
-	"disablereceiveshadows" "0"
-	"disableshadowdepth" "0"
-	"disableshadows" "0"
-	"effecthandling" "0"
-	"firerate" "1"
-	"firespread" "0"
-	"gun_pitch_pose_center" "0"
-	"gun_yaw_pose_center" "0"
-	"ignoregraceupto" "768"
-	"leadtarget" "0"
-	"maxrange" "0"
-	"minrange" "0"
-	"origin" "56 -2 -58.04"
-	"parentname" "cube"
-	"persistence" "1"
-	"persistence2" "0"
-	"pitchrange" "180"
-	"pitchrate" "9999"
-	"pitchtolerance" "5"
-	"playergraceperiod" "0"
-	"playerlocktimebeforefire" "0"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"renderfx" "0"
-	"rendermode" "0"
-	"shadowdepthnocache" "0"
-	"shouldfindnpcs" "1"
-	"solid" "6"
-	"spawnflags" "32785"
-	"spritescale" "1"
-	"targetname" "tank1"
-	"yawrange" "180"
-	"yawrate" "9999"
-	"yawtolerance" "15"
-	solid
-	{
-		"id" "7852"
-		side
-		{
-			"id" "2317"
-			"plane" "(-12 -12 -50) (-12 8 -50) (8 8 -50)"
-			"material" "BEE2/INVISIBLE_NOPORTAL"
-			"uaxis" "[1 0 0 -48] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "2316"
-			"plane" "(-12 8 -66) (-12 -12 -66) (8 -12 -66)"
-			"material" "BEE2/INVISIBLE_NOPORTAL"
-			"uaxis" "[1 0 0 -48] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "2315"
-			"plane" "(-12 -12 -66) (-12 8 -66) (-12 8 -50)"
-			"material" "BEE2/INVISIBLE_NOPORTAL"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 31.84] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "2314"
-			"plane" "(8 8 -66) (8 -12 -66) (8 -12 -50)"
-			"material" "BEE2/INVISIBLE_NOPORTAL"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 31.84] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "2313"
-			"plane" "(-12 8 -66) (8 8 -66) (8 8 -50)"
-			"material" "BEE2/INVISIBLE_NOPORTAL"
-			"uaxis" "[1 0 0 -48] 0.25"
-			"vaxis" "[0 0 -1 31.84] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "2312"
-			"plane" "(8 -12 -66) (-12 -12 -66) (-12 -12 -50)"
-			"material" "BEE2/INVISIBLE_NOPORTAL"
-			"uaxis" "[1 0 0 -48] 0.25"
-			"vaxis" "[0 0 -1 31.84] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "220 30 220"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 1000]"
-	}
-}
-entity
-{
 	"id" "7859"
 	"classname" "env_sprite"
 	"angles" "0 180 0"
@@ -2186,7 +2056,7 @@ entity
 	"parentname" "cube"
 	"spawnflags" "4096"
 	"targetname" "ballLauncher"
-	"origin" "-22 -2 -58"
+	"origin" "-2 -2 -58"
 	editor
 	{
 		"color" "220 30 220"

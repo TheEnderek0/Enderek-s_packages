@@ -25,7 +25,11 @@
 	}
 	"Properties"
 	{
-		
+		"ConnectionCount"
+			{
+			"DefaultValue" "0"
+			"Index" "0"
+			}
 		"CubeType"
 			{
 			"DefaultValue"	"0"

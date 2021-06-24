@@ -25,6 +25,11 @@
 		"CanAnchorOnGoo" "0"
 	}
 	"Properties" {
+		"ConnectionCount"
+			{
+			"DefaultValue" "0"
+			"Index" "0"
+			}
 		"AutoRespawn"
 			{
 			"DefaultValue"	"1"

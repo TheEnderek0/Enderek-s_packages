@@ -1,0 +1,11 @@
+"Properties"
+	{
+	"Authors"		"The_Enderek0, Tuleby, TeamSpen210"
+	"Tags"			"Custom"
+	"infoURL"		""
+	"Ent_Count"     "??"
+	"Icon"
+		{
+			"0"	"clean/fizzler.png"
+		}
+	}
