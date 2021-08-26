@@ -1,8 +1,8 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "8973"
-	"mapversion" "2"
+	"editorbuild" "8980"
+	"mapversion" "5"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -14,19 +14,66 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "64"
+	"nGridSpacing" "16"
 	"bShow3DGrid" "0"
+	"nInstanceVisibility" "2"
+	views
+	{
+		v0
+		{
+			"3d" "1"
+			"position" "(-13.5754 -86.0773 31.3993)"
+			"angle" "[16 6.8 0]"
+		}
+		v1
+		{
+			"3d" "0"
+			"position" "(0 0 0)"
+			"zoom" "0.25"
+		}
+		v2
+		{
+			"3d" "0"
+			"position" "(0 0 0)"
+			"zoom" "0.25"
+		}
+		v3
+		{
+			"3d" "0"
+			"position" "(0 0 0)"
+			"zoom" "0.25"
+		}
+	}
 }
 world
 {
 	"id" "1"
-	"mapversion" "2"
+	"mapversion" "5"
 	"classname" "worldspawn"
-	"skyname" "sky_black_nofog"
-	"maxpropscreenwidth" "-1"
-	"detailvbsp" "detail.vbsp"
 	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
 	"maxblobcount" "250"
+	"maxpropscreenwidth" "-1"
+	"skyname" "sky_black_nofog"
+}
+entity
+{
+	"id" "65"
+	"classname" "point_servercommand"
+	"angles" "0 0 0"
+	"targetname" "command"
+	connections
+	{
+		"OnUser1" "!selfCommandcc_emit $sound0-1"
+	}
+	"origin" "16 0 0"
+	editor
+	{
+		"color" "200 0 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
 }
 entity
 {
@@ -38,7 +85,7 @@ entity
 	"pitch" "100"
 	"pitchstart" "100"
 	"radius" "1250"
-	"spawnflags" "48"
+	"spawnflags" "49"
 	"targetname" "sound"
 	"origin" "0 0 0"
 	editor
@@ -59,6 +106,8 @@ entity
 	connections
 	{
 		"OnTrigger" "soundPlaySound0-1"
+		"OnSpawn" "commandCommandcc_lang0-1"
+		"OnTrigger" "commandFireUser10-1"
 	}
 	"origin" "0 0 7.87516"
 	editor

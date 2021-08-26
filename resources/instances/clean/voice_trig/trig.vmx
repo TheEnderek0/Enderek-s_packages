@@ -1,0 +1,248 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "8980"
+	"mapversion" "5"
+	"formatversion" "100"
+	"prefab" "0"
+}
+visgroups
+{
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "0"
+	"nGridSpacing" "32"
+	"bShow3DGrid" "0"
+	"nInstanceVisibility" "2"
+	views
+	{
+		v0
+		{
+			"3d" "1"
+			"position" "(35.5959 -54.5979 39.5141)"
+			"angle" "[35.2 9.19997 0]"
+		}
+		v1
+		{
+			"3d" "0"
+			"position" "(77.9784 -11.2769 16384)"
+			"zoom" "3.85176"
+		}
+		v2
+		{
+			"3d" "0"
+			"position" "(0 0 0)"
+			"zoom" "0.25"
+		}
+		v3
+		{
+			"3d" "0"
+			"position" "(0 0 0)"
+			"zoom" "0.25"
+		}
+	}
+}
+world
+{
+	"id" "1"
+	"mapversion" "5"
+	"classname" "worldspawn"
+	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
+	"maxblobcount" "250"
+	"maxpropscreenwidth" "-1"
+	"skyname" "sky_black_nofog"
+}
+entity
+{
+	"id" "23"
+	"classname" "point_servercommand"
+	"angles" "0 0 0"
+	"targetname" "command"
+	"origin" "32 0 0"
+	editor
+	{
+		"color" "200 0 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "4"
+	"classname" "trigger_once"
+	"origin" "0 0 0"
+	"solid" "6"
+	"spawnflags" "4097"
+	"startdisabled" "0"
+	"targetname" "trig"
+	connections
+	{
+		"OnStartTouch" "soundPlaySound0-1"
+		"OnStartTouch" "commandCommandcc_emit $sound0-1"
+	}
+	solid
+	{
+		"id" "2"
+		side
+		{
+			"id" "1"
+			"plane" "(-64 64 64) (64 64 64) (64 -64 64)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -64 -64 64"
+				"point" "1 -64 64 64"
+				"point" "2 64 64 64"
+				"point" "3 64 -64 64"
+			}
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2"
+			"plane" "(-64 -64 -64) (64 -64 -64) (64 64 -64)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -64 64 -64"
+				"point" "1 -64 -64 -64"
+				"point" "2 64 -64 -64"
+				"point" "3 64 64 -64"
+			}
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3"
+			"plane" "(-64 64 64) (-64 -64 64) (-64 -64 -64)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -64 -64 -64"
+				"point" "1 -64 64 -64"
+				"point" "2 -64 64 64"
+				"point" "3 -64 -64 64"
+			}
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "4"
+			"plane" "(64 64 -64) (64 -64 -64) (64 -64 64)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 64 64 -64"
+				"point" "1 64 -64 -64"
+				"point" "2 64 -64 64"
+				"point" "3 64 64 64"
+			}
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "5"
+			"plane" "(64 64 64) (-64 64 64) (-64 64 -64)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -64 64 -64"
+				"point" "1 64 64 -64"
+				"point" "2 64 64 64"
+				"point" "3 -64 64 64"
+			}
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "6"
+			"plane" "(64 -64 -64) (-64 -64 -64) (-64 -64 64)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 64 -64 -64"
+				"point" "1 -64 -64 -64"
+				"point" "2 -64 -64 64"
+				"point" "3 64 -64 64"
+			}
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "17"
+	"classname" "ambient_generic"
+	"angles" "0 0 0"
+	"health" "10"
+	"message" "$sound"
+	"pitch" "100"
+	"pitchstart" "100"
+	"radius" "1250"
+	"spawnflags" "48"
+	"targetname" "sound"
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+cameras
+{
+	"activecamera" "-1"
+}
+cordons
+{
+	"active" "0"
+}

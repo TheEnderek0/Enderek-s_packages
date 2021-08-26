@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8973"
-	"mapversion" "83"
+	"mapversion" "96"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,13 +20,70 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "83"
+	"mapversion" "96"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
 	"maxblobcount" "250"
 	"maxpropscreenwidth" "-1"
 	"skyname" "sky_black_nofog"
+}
+entity
+{
+	"id" "1546"
+	"classname" "comp_precache_sound"
+	"sound1" "Portal.room1_TickTock"
+	"sound2" "EnergyBall.KillImpact"
+	"origin" "48 48 54"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "1321"
+	"classname" "logic_auto"
+	"angles" "0 0 0"
+	"spawnflags" "1"
+	"targetname" "AssignNames"
+	connections
+	{
+		"OnMapSpawn" "cubeFireUser10-1"
+		"OnMapSpawn" "triggerFireUser10-1"
+		"OnMapSpawn" "spriteFireUser10-1"
+		"OnMapSpawn" "sprite2FireUser10-1"
+		"OnMapSpawn" "timerFireUser10-1"
+		"OnMapSpawn" "ballLauncherFireUser10-1"
+		"OnMapSpawn" "!selfKill1-1"
+	}
+	"origin" "-8 10 0"
+	editor
+	{
+		"color" "0 100 250"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "1127"
+	"classname" "comp_precache_model"
+	"angles" "0 0 0"
+	"model" "models/props/heprc/heprc_cube.mdl"
+	"skin" "0"
+	"origin" "74 22 64"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
 }
 entity
 {
@@ -43,6 +100,10 @@ entity
 	"rendermode" "5"
 	"scale" "0.25"
 	"targetname" "sprite2"
+	connections
+	{
+		"OnUser1" "cubeRunScriptCodeAssignNamesSpriteTwo(caller)0-1"
+	}
 	"origin" "0 0 0"
 	editor
 	{
@@ -50,25 +111,6 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 1500]"
-	}
-}
-entity
-{
-	"id" "1102"
-	"classname" "logic_relay"
-	"angles" "0 180 0"
-	"targetname" "soundGate"
-	connections
-	{
-		"OnTrigger" "sound2PlaySound0-1"
-	}
-	"origin" "-6 -10 -3.92676"
-	editor
-	{
-		"color" "0 100 250"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 2500]"
 	}
 }
 entity
@@ -88,6 +130,10 @@ entity
 	"scale" "0.25"
 	"spawnflags" "1"
 	"targetname" "sprite"
+	connections
+	{
+		"OnUser1" "cubeRunScriptCodeAssignNamesSpriteOne(caller)0-1"
+	}
 	"origin" "0 0 0"
 	editor
 	{
@@ -119,16 +165,13 @@ entity
 	"solid" "6"
 	"spawnflags" "256"
 	"targetname" "cube"
+	"vscripts" "enderek/heprc.nut"
 	connections
 	{
-		"OnFizzled" "counterSetValue00-1"
-		"OnFizzled" "timerDisable0-1"
-		"OnFizzled" "spriteKill0-1"
-		"OnFizzled" "sprite2Kill0-1"
-		"OnFizzled" "triggerKill0-1"
-		"OnFizzled" "ballLauncherKill0-1"
+		"OnFizzled" "!selfRunScriptCodeCubeFizzled()0-1"
+		"OnUser1" "!selfRunScriptCodeAssignNamesCube(self, $timer_delay)0-1"
 	}
-	"origin" "0 0 0"
+	"origin" "2 0 0"
 	editor
 	{
 		"color" "220 30 220"
@@ -152,12 +195,9 @@ entity
 	"wait" "1"
 	connections
 	{
-		"OnStartTouch" "soundPlaySound0-1"
-		"OnStartTouch" "TriggerBlockerFireUser10-1"
-		"OnStartTouch" "timerEnable0-1"
 		"OnStartTouch" "!activatorKill0-1"
-		"OnStartTouch" "spriteHideSprite0-1"
-		"OnStartTouch" "sprite2ShowSprite0.2-1"
+		"OnStartTouch" "cubeRunScriptCodePelletCaptured()0-1"
+		"OnUser1" "cubeRunScriptCodeAssignNamesTrigger(caller)0-1"
 	}
 	solid
 	{
@@ -251,61 +291,13 @@ entity
 	"filterclass" "prop_energy_ball"
 	"Negated" "Allow entities that match criteria"
 	"targetname" "filter"
-	"origin" "0 8 -2"
+	"origin" "16 14 -2"
 	editor
 	{
 		"color" "0 255 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 8500]"
-	}
-}
-entity
-{
-	"id" "224"
-	"classname" "ambient_generic"
-	"angles" "0 180 0"
-	"health" "5"
-	"message" "EnergyBall.KillImpact"
-	"parentname" "cube"
-	"pitch" "100"
-	"pitchstart" "100"
-	"radius" "1250"
-	"spawnflags" "48"
-	"targetname" "sound"
-	"origin" "0 2 32.83"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 10000]"
-	}
-}
-entity
-{
-	"id" "299"
-	"classname" "math_counter"
-	"angles" "0 180 0"
-	"max" "$timer_delay"
-	"targetname" "counter"
-	connections
-	{
-		"OnHitMax" "TriggerBlockerFireUser21-1"
-		"OnHitMax" "ballLauncherLaunchBall0-1"
-		"OnHitMax" "timerDisable0-1"
-		"OnHitMax" "counterSetValue00-1"
-		"OnHitMax" "sprite2HideSprite0-1"
-		"OnHitMax" "soundGateDisable0-1"
-		"OnHitMax" "soundGateEnable1-1"
-	}
-	"origin" "8 8 -2"
-	editor
-	{
-		"color" "0 100 250"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 10500]"
 	}
 }
 entity
@@ -319,38 +311,16 @@ entity
 	"targetname" "timer"
 	connections
 	{
-		"OnTimer" "counterAdd10-1"
-		"OnTimer" "soundGateTrigger0.01-1"
+		"OnTimer" "cubeRunScriptCodeOnTimer()0-1"
+		"OnUser1" "cubeRunScriptCodeAssignNamesTimer(caller)0-1"
 	}
-	"origin" "8 -6 -2"
+	"origin" "-14 14 -2"
 	editor
 	{
 		"color" "0 100 250"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 11000]"
-	}
-}
-entity
-{
-	"id" "321"
-	"classname" "logic_relay"
-	"angles" "0 180 0"
-	"spawnflags" "0"
-	"targetname" "TriggerBlocker"
-	connections
-	{
-		"OnUser1" "triggerDisable0.25-1"
-		"OnUser2" "triggerEnable0.25-1"
-		"OnUser2" "spriteShowSprite0-1"
-	}
-	"origin" "-8 8 -2"
-	editor
-	{
-		"color" "0 100 250"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 11500]"
 	}
 }
 entity
@@ -369,35 +339,17 @@ entity
 	"parentname" "cube"
 	"spawnflags" "4096"
 	"targetname" "ballLauncher"
-	"origin" "0 0 0"
+	connections
+	{
+		"OnUser1" "cubeRunScriptCodeAssignNamesLauncher(caller)0-1"
+	}
+	"origin" "-4 0 0"
 	editor
 	{
 		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 12000]"
-	}
-}
-entity
-{
-	"id" "422"
-	"classname" "ambient_generic"
-	"angles" "0 180 0"
-	"health" "10"
-	"message" "Portal.room1_TickTock"
-	"parentname" "cube"
-	"pitch" "100"
-	"pitchstart" "100"
-	"radius" "1250"
-	"spawnflags" "48"
-	"targetname" "sound2"
-	"origin" "0 0 -4"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 12500]"
 	}
 }
 cameras

@@ -15,7 +15,7 @@
 			"Palette"
 			{
 				"Tooltip"		"Breakable Glass"
-				"Image"			"clean/glass.png"
+				"Image"			"clean/glass.vtf"
 				"Position"		"1 3 0"
 			}
 		}

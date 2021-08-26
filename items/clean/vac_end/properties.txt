@@ -3,7 +3,5 @@
 	"Tags"			"Custom"
 	"infoURL"		"https://github.com/TheEnderek0/Enderek-s_packages/wiki/Pneumatic-Diversity-Vent-Dropper"
 	"Ent_count"     "4"
-	"Icon" {
-		"0"	"clean/vac_end.png"
-	}
+
 }

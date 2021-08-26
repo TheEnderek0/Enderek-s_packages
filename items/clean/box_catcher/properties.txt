@@ -3,7 +3,4 @@
 	"Tags"			"Custom"
 	"infoURL"		"https:/\/google.com/"
 	"Ent_count"     "16"
-	"Icon" {
-		"0"	"clean/box_catcher.png"
-	}
 }

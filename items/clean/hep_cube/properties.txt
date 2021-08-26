@@ -2,8 +2,6 @@
 	"Authors"		"The_Enderek0"
 	"Tags"			"Custom"
 	"infoURL"		"https:/\/google.com/"
-	"Ent_count"     "10"
-	"Icon" {
-		"0"	"clean/hep_cube.png"
-	}
+	"Ent_count"     "5"
+
 }

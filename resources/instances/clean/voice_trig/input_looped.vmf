@@ -1,8 +1,8 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "8973"
-	"mapversion" "4"
+	"editorbuild" "8980"
+	"mapversion" "5"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -16,11 +16,39 @@ viewsettings
 	"bShowLogicalGrid" "0"
 	"nGridSpacing" "16"
 	"bShow3DGrid" "0"
+	"nInstanceVisibility" "2"
+	views
+	{
+		v0
+		{
+			"3d" "1"
+			"position" "(8.58419 -99.8403 15.896)"
+			"angle" "[7.6 354.4 0]"
+		}
+		v1
+		{
+			"3d" "0"
+			"position" "(0 0 0)"
+			"zoom" "0.25"
+		}
+		v2
+		{
+			"3d" "0"
+			"position" "(0 0 0)"
+			"zoom" "0.25"
+		}
+		v3
+		{
+			"3d" "0"
+			"position" "(0 0 0)"
+			"zoom" "0.25"
+		}
+	}
 }
 world
 {
 	"id" "1"
-	"mapversion" "4"
+	"mapversion" "5"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -59,7 +87,7 @@ entity
 	"pitch" "100"
 	"pitchstart" "100"
 	"radius" "1250"
-	"spawnflags" "16"
+	"spawnflags" "17"
 	"targetname" "sound"
 	"origin" "0 0 0"
 	editor

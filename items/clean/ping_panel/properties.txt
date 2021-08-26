@@ -3,9 +3,4 @@
 	"Tags"			"Custom"
 	"infoURL"		"https:/\/google.com/"
 	"Ent_count"     "4"
-	"Icon" {
-		"0"	"clean/ping_panel.png"
-		"1"	"clean/ping_panel_atlas.png"
-		"2"	"clean/ping_panel_pbody.png"
-	}
 }

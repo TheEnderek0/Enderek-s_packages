@@ -1,8 +1,8 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "8973"
-	"mapversion" "3"
+	"editorbuild" "8980"
+	"mapversion" "6"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -14,19 +14,62 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "64"
+	"nGridSpacing" "32"
 	"bShow3DGrid" "0"
+	"nInstanceVisibility" "2"
+	views
+	{
+		v0
+		{
+			"3d" "1"
+			"position" "(17.7845 -41.868 31.1222)"
+			"angle" "[33.6 345.2 0]"
+		}
+		v1
+		{
+			"3d" "0"
+			"position" "(77.9784 -11.2769 0)"
+			"zoom" "3.85176"
+		}
+		v2
+		{
+			"3d" "0"
+			"position" "(0 0 0)"
+			"zoom" "0.25"
+		}
+		v3
+		{
+			"3d" "0"
+			"position" "(0 0 0)"
+			"zoom" "0.25"
+		}
+	}
 }
 world
 {
 	"id" "1"
-	"mapversion" "3"
+	"mapversion" "6"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
 	"maxblobcount" "250"
 	"maxpropscreenwidth" "-1"
 	"skyname" "sky_black_nofog"
+}
+entity
+{
+	"id" "23"
+	"classname" "point_servercommand"
+	"angles" "0 0 0"
+	"targetname" "command"
+	"origin" "32 0 0"
+	editor
+	{
+		"color" "200 0 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
 }
 entity
 {
@@ -40,7 +83,7 @@ entity
 	connections
 	{
 		"OnStartTouch" "soundPlaySound0-1"
-		"OnStartTouch" "textDisplay0-1"
+		"OnStartTouch" "commandCommandcc_emit $sound0-1"
 	}
 	solid
 	{
@@ -48,7 +91,15 @@ entity
 		side
 		{
 			"id" "1"
-			"plane" "(-64 64 64) (64 64 64) (64 -64 64)"
+			"plane" "(-64 -64 64) (-64 64 64) (64 64 64)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -64 -64 64"
+				"point" "1 -64 64 64"
+				"point" "2 64 64 64"
+				"point" "3 64 -64 64"
+			}
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -59,7 +110,15 @@ entity
 		side
 		{
 			"id" "2"
-			"plane" "(-64 -64 -64) (64 -64 -64) (64 64 -64)"
+			"plane" "(-64 64 -64) (-64 -64 -64) (64 -64 -64)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -64 64 -64"
+				"point" "1 -64 -64 -64"
+				"point" "2 64 -64 -64"
+				"point" "3 64 64 -64"
+			}
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -70,7 +129,15 @@ entity
 		side
 		{
 			"id" "3"
-			"plane" "(-64 64 64) (-64 -64 64) (-64 -64 -64)"
+			"plane" "(-64 -64 -64) (-64 64 -64) (-64 64 64)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -64 -64 -64"
+				"point" "1 -64 64 -64"
+				"point" "2 -64 64 64"
+				"point" "3 -64 -64 64"
+			}
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -82,6 +149,14 @@ entity
 		{
 			"id" "4"
 			"plane" "(64 64 -64) (64 -64 -64) (64 -64 64)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 64 64 -64"
+				"point" "1 64 -64 -64"
+				"point" "2 64 -64 64"
+				"point" "3 64 64 64"
+			}
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -92,7 +167,15 @@ entity
 		side
 		{
 			"id" "5"
-			"plane" "(64 64 64) (-64 64 64) (-64 64 -64)"
+			"plane" "(-64 64 -64) (64 64 -64) (64 64 64)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -64 64 -64"
+				"point" "1 64 64 -64"
+				"point" "2 64 64 64"
+				"point" "3 -64 64 64"
+			}
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -104,6 +187,14 @@ entity
 		{
 			"id" "6"
 			"plane" "(64 -64 -64) (-64 -64 -64) (-64 -64 64)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 64 -64 -64"
+				"point" "1 -64 -64 -64"
+				"point" "2 -64 -64 64"
+				"point" "3 64 -64 64"
+			}
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -136,7 +227,7 @@ entity
 	"pitch" "100"
 	"pitchstart" "100"
 	"radius" "1250"
-	"spawnflags" "48"
+	"spawnflags" "49"
 	"targetname" "sound"
 	"origin" "0 0 0"
 	editor

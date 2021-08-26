@@ -15,7 +15,7 @@
 			"Palette"
 				{
 				"Tooltip"		"PLS Fizzler"
-				"Image"			"palette/fizzler.png"
+				"Image"			"palette/fizzler.vtf"
 				}
 			"Sounds"
 				{

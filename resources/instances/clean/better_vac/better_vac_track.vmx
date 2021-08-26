@@ -1,0 +1,63 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "8973"
+	"mapversion" "2"
+	"formatversion" "100"
+	"prefab" "0"
+}
+visgroups
+{
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "0"
+	"nGridSpacing" "64"
+	"bShow3DGrid" "0"
+}
+world
+{
+	"id" "1"
+	"mapversion" "2"
+	"classname" "worldspawn"
+	"skyname" "sky_black_nofog"
+	"maxpropscreenwidth" "-1"
+	"detailvbsp" "detail.vbsp"
+	"detailmaterial" "detail/detailsprites"
+	"maxblobcount" "250"
+}
+entity
+{
+	"id" "2"
+	"classname" "path_track"
+	"angles" "-90 0 0"
+	"orientationtype" "1"
+	"radius" "0"
+	"spawnflags" "0"
+	"speed" "256"
+	"targetname" "track"
+	"vscripts" "enderek/vac_anim_script.nut"
+	connections
+	{
+		"OnUser1" "!callerRunScriptCodeAssignName(self)0-1"
+		"OnUser1" "!selfRunScriptCodeLink(self)0.02-1"
+	}
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "255 192 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+cameras
+{
+	"activecamera" "-1"
+}
+cordons
+{
+	"active" "0"
+}

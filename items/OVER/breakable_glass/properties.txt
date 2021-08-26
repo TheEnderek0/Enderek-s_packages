@@ -3,7 +3,5 @@
 	"Tags"			"Custom"
 	"infoURL"		"https:/\/google.com/"
 	"Ent_count"     "0"
-	"Icon" {
-		"0"	"clean/glass.png"
-	}
+
 }

@@ -3,7 +3,5 @@
 	"Tags"			"Custom"
 	"infoURL"		""
 	"Ent_count"     "0"
-	"Icon" {
-		"0"	"clean/portal_selector.png"
-	}
+
 }

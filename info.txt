@@ -1,4 +1,5 @@
 "ID" "Enderek-s_packages"
+"Name" "Enderek-s packages"
 "Item" {
     "ID" "ITEM_BOX_CATCHER"
     "Description"
@@ -101,6 +102,26 @@
 		"Styles" {
 			"ANY_STYLE" "clean/hep_cube"
 }}}
+"PackList"
+	{
+	"ID" "ITEM_HEP_CUBE"
+	"Config"
+		{
+		"" "models/props/heprc/heprc_cube.dx90.vtx"
+		"" "models/props/heprc/heprc_cube.mdl"
+		"" "models/props/heprc/heprc_cube.phy"
+		"" "models/props/heprc/heprc_cube.vvd"
+		"" "materials/models/props/heprc/heprc_cube_glass.vmt"
+		"" "materials/models/props/heprc/heprc_cube_glass.vtf"
+		"" "materials/models/props/heprc/heprc_cube_glass_normal.vtf"
+		"" "materials/models/props/heprc/heprc_cube_glass_off.vmt"
+		"" "materials/models/props/heprc/heprc_cube_interior.vtf"
+		"" "materials/models/props/heprc/heprc_cube_iridescence.vtf"
+		"" "materials/models/props/heprc/heprc_cube_shell.vmt"
+		"" "materials/models/props/heprc/heprc_cube_shell.vtf"
+
+		}
+	}
 "Item" {
 	"ID" "ITEM_HEP_DROPPER_CUBE"
 	"Description"	"A dropper for HEP Cubes."
@@ -278,8 +299,34 @@
 			"ANY_STYLE" "clean/time_controller"
 }}}
 	
+//"Item" {
+//	"ID" "ITEM_BETTER_VAC"
+//	"Description"
+//{
+//	"" ""
+//	"" "* Weighted - 0.7"
+//	"" "* Cube - 0.5"
+//	"" "* Sphere - 0.3"
+//}
+//	"Version" {
+//		"Styles" {
+//			"ANY_STYLE" "clean/better_vac"
+//}}}
 
 
+//"Item" {
+//	"ID" "ITEM_SHAKE"
+//	"Description"
+//{
+//	"" "This"
+//	"" "* Weighted - 0.7"
+//	"" "* Cube - 0.5"
+//	"" "* Sphere - 0.3"
+//}
+//	"Version" {
+//		"Styles" {
+//			"ANY_STYLE" "clean/better_vac"
+//}}}
 "ConfigGroup"
 {
     "ID"    "VOICE_TRIG"

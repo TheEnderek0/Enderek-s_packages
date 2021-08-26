@@ -3,7 +3,5 @@
 	"Tags"			"Custom"
 	"infoURL"		"https:/\/google.com/"
 	"Ent_count"     "7"
-	"Icon" {
-		"0"	"clean/toggle_button.png"
-	}
+
 }

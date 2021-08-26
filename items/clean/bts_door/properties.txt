@@ -4,7 +4,5 @@
 	"Description"	""
 	"infoURL"		"https:/\/google.com/"
 	"Ent_count"     "4"
-	"Icon" {
-		"0"	"clean/bts_door.png"
-	}
+
 }
