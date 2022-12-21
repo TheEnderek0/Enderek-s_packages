@@ -7,7 +7,7 @@ Latest version: 2.0.0
 Incompatible with: 4.36.x
 
  `This package adds useful items, here is the full list with descriptions: `
-
+t
 > **Box Catcher**
 This item works like box catcher from blue portals. When you insert a cube into it, it will close and activate output. In addition, this item accepts inputs, which can block it, so that you cannot insert a cube into it. For more details, please check it's description in BEE2.
 
