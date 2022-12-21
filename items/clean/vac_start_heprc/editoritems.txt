@@ -8,7 +8,7 @@
 				"ModelName"		"bee2_vactube_grid_1x1.mdl"
 			}
 			"Palette" {
-				"Tooltip"	"Pneumatic Diversity Vent Dropper Start - HEPRC"
+				"Tooltip"	"PNEUMATIC DIVERSITY VENT DROPPER START - HEPRC"
 				"Image"		"palette/clean/vac_start_heprc.png"
 				"Position"	"1 6 0"
 			}

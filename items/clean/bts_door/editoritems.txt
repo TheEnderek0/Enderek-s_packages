@@ -5,10 +5,10 @@
         "SubType" {
 			"Name" "BTS Sliding Door"
 			"Model" {
-				"ModelName"		"sentry.3ds"
+				"ModelName"		"door_90deg.3ds"
 			}
 			"Palette" {
-				"Tooltip"	"BTS Sliding Door"
+				"Tooltip"	"BTS SLIDING DOOR"
 				"Image"		"palette/clean/bts_door.png"
 				"Position"	"1 6 0"
 			}

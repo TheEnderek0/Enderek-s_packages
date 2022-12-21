@@ -1,7 +1,7 @@
 "Properties" {
 	"Authors"		"The_Enderek0"
 	"Tags"			"Custom"
-	"Description"	""
+	"Description"	"A door found in behind the scenes areas. Can be opened by the player on one side."
 	"infoURL"		"https:/\/google.com/"
 	"Ent_count"     "2"
 }

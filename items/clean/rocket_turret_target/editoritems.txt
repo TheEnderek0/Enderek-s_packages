@@ -5,10 +5,10 @@
         "SubType" {
 			"Name" "Rocket Turret Target"
 			"Model" {
-				"ModelName"		"sentry.3ds"
+				"ModelName"		"bee2_glass_hole_large.3ds"
 			}
 			"Palette" {
-				"Tooltip"	"Rocket Turret Target"
+				"Tooltip"	"ROCKET TURRET TARGET"
 				"Image"		"palette/clean/rocket_turret_target.png"
 				"Position"	"1 6 0"
 			}

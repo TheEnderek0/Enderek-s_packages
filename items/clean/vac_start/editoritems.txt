@@ -8,7 +8,7 @@
 				"ModelName"		"bee2_vactube_grid_1x1.mdl"
 			}
 			"Palette" {
-				"Tooltip"	"Pneumatic Diversity Vent Dropper Start"
+				"Tooltip"	"PNEUMATIC DIVERSITY VENT DROPPER START"
 				"Image"		"palette/clean/vac_start.png"
 				"Position"	"1 6 0"
 			}

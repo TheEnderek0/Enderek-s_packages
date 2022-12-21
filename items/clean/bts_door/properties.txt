@@ -1,7 +1,7 @@
 "Properties" {
 	"Authors"		"The_Enderek0"
 	"Tags"			"Custom"
-	"Description"	""
+	"Description"	"A heavy door found in behind the scenes areas. Can be opened via an input."
 	"infoURL"		"https:/\/google.com/"
 	"Ent_count"     "4"
 

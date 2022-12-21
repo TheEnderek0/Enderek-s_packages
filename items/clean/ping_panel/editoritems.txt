@@ -5,47 +5,13 @@
     "Editor" {
 	"SubTypeProperty"		"ButtonType"
         "SubType" {
-			"Name" "Ping Panel - Dual"
+			"Name" "Ping Panel"
 			"Model" {
 				"ModelName"		"laserrecc.3ds"
 			}
 			"Palette" {
-				"Tooltip"	"Ping Panel - Dual"
+				"Tooltip"	"PING PANEL"
 				"Image"		"palette/clean/ping_panel.png"
-				"Position"	"1 6 0"
-			}
-		    "Sounds" {
-				"SOUND_CREATED" "P2Editor.PlaceOther"
-				"SOUND_EDITING_ACTIVATE" "P2Editor.ExpandOther"
-				"SOUND_EDITING_DEACTIVATE" "P2Editor.CollapseOther"
-				"SOUND_DELETED" "P2Editor.RemoveOther"
-			}
-		}
-	"SubType" {
-			"Name" "Ping Panel - ATLAS"
-			"Model" {
-				"ModelName"		"laserrecc.3ds"
-			}
-			"Palette" {
-				"Tooltip"	"Ping Panel - ATLAS"
-				"Image"		"palette/clean/ping_panel_atlas.png"
-				"Position"	"1 6 0"
-			}
-		    "Sounds" {
-				"SOUND_CREATED" "P2Editor.PlaceOther"
-				"SOUND_EDITING_ACTIVATE" "P2Editor.ExpandOther"
-				"SOUND_EDITING_DEACTIVATE" "P2Editor.CollapseOther"
-				"SOUND_DELETED" "P2Editor.RemoveOther"
-			}
-		}
-	"SubType" {
-			"Name" "Ping Panel - P-Body"
-			"Model" {
-				"ModelName"		"laserrecc.3ds"
-			}
-			"Palette" {
-				"Tooltip"	"Ping Panel - P-Body"
-				"Image"		"palette/clean/ping_panel_pbody.png"
 				"Position"	"1 6 0"
 			}
 		    "Sounds" {

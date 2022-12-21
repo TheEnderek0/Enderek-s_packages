@@ -8,7 +8,7 @@
 				"ModelName"		"bee2_pgun_pedestal_dual.3ds"
 			}
 			"Palette" {
-				"Tooltip"	"Portal Gun Upgrade Station"
+				"Tooltip"	"PORTAL GUN UPGRADE STATION"
 				"Image"		"palette/clean/upgrade_station.png"
 				"Position"	"1 6 0"
 			}

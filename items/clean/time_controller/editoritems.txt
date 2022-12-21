@@ -5,46 +5,12 @@
     "Editor" {
 	"SubTypeProperty"		"ButtonType"
         "SubType" {
-			"Name" "Time Controller - 0.7"
+			"Name" "Time Controller"
 			"Model" {
-				"ModelName"		"trigger_once.3ds"
+				"ModelName"		"tspen_logic_delayer_falling.mdl"
 			}
 			"Palette" {
-				"Tooltip"	"Time Controller - 0.7"
-				"Image"		"palette/clean/time_controller.png"
-				"Position"	"1 6 0"
-			}
-		    "Sounds" {
-				"SOUND_CREATED" "P2Editor.PlaceOther"
-				"SOUND_EDITING_ACTIVATE" "P2Editor.ExpandOther"
-				"SOUND_EDITING_DEACTIVATE" "P2Editor.CollapseOther"
-				"SOUND_DELETED" "P2Editor.RemoveOther"
-			}
-		}
-	"SubType" {
-			"Name" "Time Controller - 0.5"
-			"Model" {
-				"ModelName"		"trigger_once.3ds"
-			}
-			"Palette" {
-				"Tooltip"	"Time Controller - 0.5"
-				"Image"		"palette/clean/time_controller.png"
-				"Position"	"1 6 0"
-			}
-		    "Sounds" {
-				"SOUND_CREATED" "P2Editor.PlaceOther"
-				"SOUND_EDITING_ACTIVATE" "P2Editor.ExpandOther"
-				"SOUND_EDITING_DEACTIVATE" "P2Editor.CollapseOther"
-				"SOUND_DELETED" "P2Editor.RemoveOther"
-			}
-		}
-	"SubType" {
-			"Name" "Time Controller - 0.3"
-			"Model" {
-				"ModelName"		"trigger_once.3ds"
-			}
-			"Palette" {
-				"Tooltip"	"Time Controller - 0.3"
+				"Tooltip"	"TIME CONTROLLER"
 				"Image"		"palette/clean/time_controller.png"
 				"Position"	"1 6 0"
 			}

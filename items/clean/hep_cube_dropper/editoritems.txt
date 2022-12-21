@@ -3,12 +3,12 @@
     
     "Editor" {
         "SubType" {
-			"Name" "HEP Redirection Cube Dropper"
+			"Name" "Pellet Redirection Cube Dropper"
 			"Model" {
 				"ModelName"		"dropper.3ds"
 			}
 			"Palette" {
-				"Tooltip"	"HEP Redirection Cube Dropper"
+				"Tooltip"	"PELLET REDIRECTION CUBE DROPPER"
 				"Image"		"palette/clean/hep_cube.png"
 				"Position"	"1 6 0"
 			}
