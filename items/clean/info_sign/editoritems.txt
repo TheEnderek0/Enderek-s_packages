@@ -8,7 +8,7 @@
 				"ModelName"		"faithplate.3ds"
 			}
 			"Palette" {
-				"Tooltip"	"Test Chamber Sign"
+				"Tooltip"	"TEST CHAMBER SIGN"
 				"Image"		"palette/clean/info_sign.png"
 				"Position"	"1 6 0"
 			}
@@ -29,11 +29,6 @@
 			{
 			"DefaultValue" "0"
 			"Index" "0"
-			}
-		"StartReversed"
-			{
-			"DefaultValue" "0"
-			"Index" "1"
 			}
 	}
 	"Exporting" {

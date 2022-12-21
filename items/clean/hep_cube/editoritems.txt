@@ -5,10 +5,10 @@
 		{
 		"SubType"
 			{
-			"Name"		"HEP Redirection Cube"
+			"Name"		"Pellet Redirection Cube"
 			"Model"
 				{
-				"ModelName"		"cube.3ds"
+				"ModelName"		"cubelaser.3ds"
 				}
 			"Model"
 				{
@@ -16,7 +16,7 @@
 				}
 			"Palette"
 				{
-				"Tooltip"	"HEP Redirection Cube"
+				"Tooltip"	"PELLET REDIRECTION CUBE"
 				"Image"		"palette/clean/hep_cube.png"
 				}
 			"Sounds"

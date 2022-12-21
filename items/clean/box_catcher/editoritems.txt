@@ -3,12 +3,12 @@
     
     "Editor" {
         "SubType" {
-			"Name" "Box Catcher"
+			"Name" "Cube Catcher"
 			"Model" {
-				"ModelName"		"sentry.3ds"
+				"ModelName"		"dropper.3ds"
 			}
 			"Palette" {
-				"Tooltip"	"BOX CATCHER"
+				"Tooltip"	"CUBE CATCHER"
 				"Image"		"palette/clean/box_catcher.png"
 				"Position"	"1 6 0"
 			}

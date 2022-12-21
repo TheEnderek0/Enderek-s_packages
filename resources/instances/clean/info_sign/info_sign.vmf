@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8874"
-	"mapversion" "33"
+	"mapversion" "35"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "33"
+	"mapversion" "35"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -562,14 +562,30 @@ world
 }
 entity
 {
+	"id" "441"
+	"classname" "logic_relay"
+	"angles" "0 0 0"
+	"startdisabled" "0"
+	"targetname" "inputON"
+	connections
+	{
+		"OnTrigger" "info_panelSetActive01"
+		"OnSpawn" "info_panelSetInactive0-1"
+	}
+	"origin" "-2.58781 12.8988 -59"
+	editor
+	{
+		"color" "0 100 250"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
 	"id" "430"
 	"classname" "func_instance_io_proxy"
 	"targetname" "proxy"
-	connections
-	{
-		"OnProxyRelay" "info_panelSetActive0-1"
-		"OnProxyRelay" "info_panelSetInactive0-1"
-	}
 	"origin" "-22.6185 6.42925 -52"
 	editor
 	{
@@ -581,33 +597,10 @@ entity
 }
 entity
 {
-	"id" "432"
-	"classname" "logic_auto"
-	"angles" "0 0 0"
-	"spawnflags" "1"
-	connections
-	{
-		"OnMapSpawn" "info_panelSetInactive01"
-	}
-	"origin" "-22.6185 38.4293 -52"
-	editor
-	{
-		"color" "0 100 250"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
-	}
-}
-entity
-{
 	"id" "424"
 	"classname" "logic_relay"
 	"angles" "0 0 0"
-	"targetname" "@vgui_workshop_screen_on"
-	connections
-	{
-		"OnTrigger" "info_panelSetActive0-1"
-	}
+	"targetname" "inputOFF"
 	"origin" "14.6686 13.9496 -51"
 	editor
 	{

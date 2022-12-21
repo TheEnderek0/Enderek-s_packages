@@ -3,12 +3,12 @@
     
     "Editor" {
         "SubType" {
-			"Name" "Sound Trigger"
+			"Name" "Voiceline Trigger"
 			"Model" {
 				"ModelName"		"trigger_once.3ds"
 			}
 			"Palette" {
-				"Tooltip"	"Sound Trigger"
+				"Tooltip"	"VOICELINE TRIGGER"
 				"Image"		"palette/clean/voice_trig.png"
 				"Position"	"1 6 0"
 			}

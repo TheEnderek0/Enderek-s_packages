@@ -5,7 +5,7 @@
         "SubType" {
 			"Name" "BTS Push Door"
 			"Model" {
-				"ModelName"		"sentry.3ds"
+				"ModelName"		"door_90deg.3ds"
 			}
 			"Palette" {
 				"Tooltip"	"BTS Push Door"

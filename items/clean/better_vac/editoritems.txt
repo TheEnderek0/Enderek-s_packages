@@ -10,7 +10,7 @@
 				"ModelName"		"laserrecc.3ds"
 			}
 			"Palette" {
-				"Tooltip"	"Better Vactube Animation - Start"
+				"Tooltip"	"BETTER VACTUBE ANIMATION - START"
 				"Image"		"palette/clean/better_vac_start.vtf"
 				"Position"	"1 6 0"
 			}

@@ -8,7 +8,7 @@
 				"ModelName"		"selection_over_pedestal_button_middle.3ds"
 			}
 			"Palette" {
-				"Tooltip"	"Toggle Button"
+				"Tooltip"	"TOGGLE BUTTON"
 				"Image"		"palette/clean/toggle_button.vtf"
 				"Position"	"1 6 0"
 			}

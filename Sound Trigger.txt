@@ -1,0 +1,36 @@
+Instructions
+------------
+1. Go to the wiki pages below then copy the name of the voicelines you want to use.
+
+2. In BEEMod, go to item properties and scroll down until you see Enderek Sound Trigger - Sounds. Then paste the voiceline names in the boxes. There can be up to 28 different voicelines in a single chamber.
+
+3. In the editor, use the timer widget to select the voiceline you want to play then have something to activate it.
+
+
+Voicelines
+----------
+GLaDOS (Singleplayer): https://combineoverwiki.net/wiki/GLaDOS/Quotes/Portal_2_single-player
+
+GLaDOS (Cooperative): https://combineoverwiki.net/wiki/GLaDOS/Quotes/Portal_2_multiplayer
+
+Wheatley: https://combineoverwiki.net/wiki/Wheatley/Quotes
+
+Cave Johnson: https://combineoverwiki.net/wiki/Cave_Johnson/Quotes
+
+Announcer:
+https://combineoverwiki.net/wiki/Aperture_Science_Announcement_System/Quotes
+
+Caroline: https://theportalwiki.com/wiki/Caroline_voice_lines
+
+Some characters such as Turret, Defective Turret, and the cores do not have Combine Overwiki pages for their voicelines. To view the names of their voicelines, go to the subtitles_english txt file to view all of them. In the txt file, press Ctrl+F to search for the character/voiceline you want to use.
+
+
+Prefixes
+--------
+
+GLaDOS/Caroline: glados.
+Wheatley: sphere03.
+Cave Johnson: cavejohnson.
+Announcer: announcer.
+
+Add these to the beginning of the voiceline's names in the Enderek Sound Trigger boxes.

@@ -21,26 +21,6 @@
 	"file"  "box_catcher.vmf"
 	}
 
-
-"Item" {
-	"ID" "ITEM_BARRIER_BREAKABLE"
-	"Description"
-{
-	"" "Glass, that breaks when something explodes near it."
-	"" "* The cube type property is used to cycle through patterns."
-	"" "* This item fires an output when the glass piece is broken."
-}	
-	"Version" {
-		"ID" "VER_DEFAULT"
-		"Styles" {
-			"BEE2_CLEAN"        "clean/breakable_glass"
-			"BEE2_BTS"          "clean/breakable_glass"
-			"BEE2_PORTAL_1"     "clean/breakable_glass"
-			"BEE2_1950s"        "clean/breakable_glass"
-			"BEE2_OVERGROWN"    "over/breakable_glass"
-}}}
-
-
 "Item" {
 	"ID" "ITEM_TARGET"
 	"Description"	"Target for rocket turrets. Outputs a pulse when rocket hits the center."
@@ -189,20 +169,6 @@
 	"file" "bts_push_door"
 	}
 "Item" {
-	"ID" "ITEM_PORTAL_SELECTOR"
-	"Description"
-{
-	"" "Portal Linkage Selector that lets you change portal gun linkage id by an input."
-	"" "* Set the timer delay to select linkage id."
-	"" "* Setting the timer to 1 will make this item reset the linkage id."
-	"" "* Start reversed makes it that the portal linkage id is changed only when input is activated, when the input is deactivated it will reset the linkage id."
-	"" "* **Due to functionality of this item, you need to use PLS Fizzler to fizzle all portals.**"
-}
-	"Version" {
-		"Styles" {
-			"ANY_STYLE" "clean/portal_linkage_selector"
-}}}
-"Item" {
 	"ID" "ITEM_VAC_END"
 	"Description"
 {
@@ -254,7 +220,7 @@
 	"" "* Start reversed unchecked - activated by inputs."
 	"" "* **WARNING** If you want to play looping sounds be sure Auto Drop property is checked!"
 	"" "* Looped sounds will stop playing as soon as player steps out of the trigger / turns input off."
-	"" "* Click more info to see voice line documentation."
+	"" "* Please click **More Info** at the bottom to see the usage tutorial."
 }
 	"Version" {
 		"Styles" {
@@ -274,17 +240,6 @@
 			"ANY_STYLE" "clean/ping_panel"
 }}}
 
-"Item" {
-	"ID" "ITEM_PLS_FIZZLER"
-	"Description"
-{
-	"" "Fixed version of Absolute Fizzler for Portal Linkage Selector."
-}
-	"Version" {
-		"Styles" {
-			"ANY_STYLE" "clean/pls_fizzler"
-}}}
-	
 "Item" {
 	"ID" "ITEM_TIME_CONTROLLER"
 	"Description"
